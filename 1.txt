@@ -1,0 +1,3955 @@
+European Journal of Political Economy 51 (2018) 69–92
+
+Contents lists available at ScienceDirect
+
+European Journal of Political Economy
+journal homepage: www.elsevier.com/locate/ejpoleco
+
+Do ﬁscal rules constrain ﬁscal policy? A meta-regression-analysis
+Friedrich Heinemann
+
+a,b
+
+b
+
+b,⁎
+
+MARK
+
+, Marc-Daniel Moessinger , Mustafa Yeter
+
+a
+
+University of Heidelberg, Germany
+b
+ZEW Mannheim, P.O. Box 103443, 68034 Mannheim, Germany
+
+A R T I C L E I N F O
+
+ABSTRACT
+
+JEL classiﬁcation:
+H50
+H6
+H63
+
+We implement a meta-regression-analysis for the budgetary impact of numerical ﬁscal rules
+based on 30 studies published in the last decade. The existing empirical evidence points to a
+constraining eﬀect of rules on ﬁscal aggregates. However, this seemingly optimistic message is
+strongly weakened as our analysis points to a bias if the potential endogeneity of ﬁscal rules is
+not explicitly taken into account. Furthermore, our analysis provides evidence for the presence of
+a publication bias. Both sources of bias reduce the statistical precision of obtained eﬀects below
+usual levels of statistical signiﬁcance. In addition, we oﬀer suggestive evidence for the eﬀect size
+based on a small coherent sub-sample and provide recommendations for future research on the
+budgetary impact of ﬁscal rules.
+
+Keywords:
+Fiscal rules
+Meta-regression-analysis
+Public ﬁnances
+
+1. Introduction
+In recent decades, industrialised countries have exhibited a substantial increase in public debt reaching levels which increasingly
+threaten ﬁscal sustainability. There is a growing consensus that this is due to a debt or spending bias of politicians which distorts
+democratic budgetary decision making (see Imbeau, 2004, for a survey). Legislators in numerous industrialised countries therefore
+have proposed and introduced numerical ﬁscal rules in order to meet these adverse incentives as well as the long-run trend in
+increasing debt. Under the impression of the recent crisis, the introduction and strengthening of these rules ranked high on the
+political agenda. At the supranational level, for instance, the European Union has reformed the Stability and Growth Pact with
+stricter thresholds and more stringent decision making procedures. Furthermore, the Fiscal Compact obliges ratifying EU Member
+States to introduce numerical ﬁscal rules or to adapt existing ones along the requirements of the compact in order to increase their
+eﬃcacy. The eﬀectiveness of ﬁscal rules in conﬁning political-economic forces inducing a debt bias, however, has been a matter of
+discussion.
+In recent years, a large body of empirical research investigating the eﬀectiveness of ﬁscal rules has emerged.1 However, a
+majority of these studies share a common point of criticism as they neglect or do not deal adequately with the potential issue of
+endogeneity. The latter might invalidate the empirical analysis, as the fact that a country has a ﬁscal rule in place might primarily
+reﬂect its preferences for ﬁscal discipline (Poterba, 1996; Debrun et al., 2008). Furthermore, the establishment of a ﬁscal rule or its
+strictness might systematically coincide with the country's ﬁscal condition. Those countries already exhibiting a low level of public
+debt might therefore be more likely to coincide with stricter rules. Consequently, a common cause interdependence may exist in
+which preferences drive both the presence of ﬁscal rules as well as the ﬁscal performance of a country. Thus, in these kinds of
+
+⁎
+
+Corresponding author.
+E-mail addresses: heinemann@zew.de (F. Heinemann), moessinger@zew.de (M.-D. Moessinger), yeter@zew.de (M. Yeter).
+1
+Early studies usually focused on balanced budget rules in the context of US states (e.g., Bails, 1982; Abrams and Dougan, 1986; Shadbegian, 1996). Subsequently,
+analyses have been extended to further countries or even further lower tier subnational jurisdictions (for qualitative surveys see Kirchgässner, 2002; Burret and Feld,
+2014).
+http://dx.doi.org/10.1016/j.ejpoleco.2017.03.008
+Received 25 August 2016; Received in revised form 15 March 2017; Accepted 21 March 2017
+Available online 12 April 2017
+0176-2680/ © 2017 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY-NC-ND license
+(http://creativecommons.org/licenses/BY-NC-ND/4.0/).
+
+European Journal of Political Economy 51 (2018) 69–92
+
+F. Heinemann et al.
+
+settings, ﬁscal rules cannot be interpreted as exhibiting a causal inﬂuence on the level of public debt.
+Against this background, our contribution is twofold. First, we conduct the ﬁrst meta-regression-analysis (MRA) on this
+particular ﬁeld of literature summarising existing empirical evidence in a systematic way. To this end, we concentrate on the impact
+of numerical ﬁscal rules on ﬁscal aggregates in a national as well as subnational context.2 Second, we explicitly account for diﬀerent
+identiﬁcation strategies followed by primary studies and assess the relevance of the above mentioned endogeneity concerns.
+Given the large methodological heterogeneity in this ﬁeld of literature, several challenges have to be overcome in order to
+implement a MRA. As ﬁscal rules are measured in various ways, the extraction of a uniformly deﬁned and comparable impact
+coeﬃcient is not feasible. To this end, we follow meta-analytical studies such as Card et al. (2010) and rely on the t-value rather than
+the point estimate itself. This measure is fully comparable across studies and indicates the sign as well as the level of statistical
+signiﬁcance with which ﬁscal rules impact on ﬁscal aggregates. For the largest homogeneous sub-group of studies, we additionally
+run meta-regressions with respect to the eﬀect size. Furthermore, given the wide range of control variables employed in primary
+studies, we subsume particular features in groups of control variables which deﬁne a typical study and against which we test the
+robustness to alterations in the estimation speciﬁcations in existing studies.
+Based on 30 studies which have been published in the period between 2004–2014, the following insights emerge: In general, the
+MRA provides evidence for a constraining and statistically signiﬁcant impact of ﬁscal rules on ﬁscal aggregates at the national level.
+This result is particularly strong for deﬁcits and to a much lesser degree for debt, expenditures or revenues. However, the results
+point to a substantial bias if the potential endogeneity of ﬁscal rules is neglected, conﬁrming that these concerns have to be taken
+seriously. The statistical signiﬁcance of the impact of rules is reduced below the usual levels if a primary study is characterised by a
+more sophisticated identiﬁcation strategy. This insight strongly weakens the seemingly optimistic message in the existing empirical
+literature with respect to the eﬀectiveness of ﬁscal rules. Concerning the administrative level, we ﬁnd evidence for a higher eﬃcacy of
+ﬁscal rules at the municipal level compared to the national level. Beyond that, the MRA provides evidence for a potential publication
+bias as results obtained from working papers are on average associated with lower levels of statistical signiﬁcance. With respect to
+the eﬀect size, our MRA points to a deﬁcit reducing impact in the range of −1.5 to −1.2% of GDP if a ﬁscal rules is present.
+In the next section, we describe our algorithm for the literature search. In Section 3, we explain the coding of the meta-variables
+and take a descriptive look at our sample. While the empirical methodology is described in Section 4, the meta-regression results are
+presented in Section 5. Section 6 concludes.
+2. Selection of studies
+Crucial for the validity of a MRA is the application of a well-deﬁned and reproducible algorithm guiding the literature search as
+well as the coding for the subsequent econometric modelling. To this end, we base our analysis on the guidelines proposed by Stanley
+et al. (2013).3
+We conducted a literature search using the EconLit database. This database covers all economic journals indexed by the
+American Economic Association and provides a comprehensive overview of the economic literature. The keywords employed to
+conduct the literature search involved ﬁscal rule, ﬁscal restraint, debt brake, debt rule, budget rule, and deﬁcit rule. The search was
+carried out on April 16th, 2014 and repeated on January 28th, 2015 to ensure that all publications from 2014 were included. In raw
+ﬁgures, this resulted in a total of more than 1,500 search results. We then ﬁltered out all duplicate search results found across
+keywords and excluded papers not published in English. Furthermore, we limited the time frame of the search to 10 years, i.e., only
+studies published between 2004 and 2014 were included. Consequently, our MRA provides a consensus estimate formed by the
+empirical evidence from the last decade.4
+To derive a sample of comparable studies, we further applied a common deﬁnition of a ﬁscal rule. To this end, we rely on the
+deﬁnition provided by Kopits and Symansky (1998) where ﬁscal rules are characterised as a permanent numerical constraint on
+ﬁscal policy deﬁned in terms of an indicator of overall ﬁscal performance such as the government deﬁcit, debt or expenditure.
+Against this background, we focus in our MRA on numerical ﬁscal rules in national and subnational contexts, and preclude studies
+which exclusively investigate the impact of supranational rules such as the Stability and Growth Pact. This decision is guided by the
+usual focus on cross-jurisdictional variation in rules in the empirical literature.5
+Finally, we limit our analysis to primary studies with public ﬁnance indicators such as expenditures, revenues, debt, or deﬁcit as
+dependent variables including their overall state or their subcomponents. In contrast, we exclude studies testing the impact of ﬁscal
+rules on ﬁnancial market indicators or the structure of the budget. The latter do not ﬁt into the framework of our research question
+as they lack a clear hypothesis against which the result with respect to the eﬃcacy of a ﬁscal rule could be interpreted (e.g., Dahan
+and Strawczynski, 2013).
+Altogether, this algorithm yields 51 studies for coding. In assessing and coding these studies, we follow a four-eyes principle to
+reduce measurement error and imprecision caused by interpretation. Initially, each paper is read by one of the authors. This involves
+a ﬁrst assessment in terms of relevance with respect to the guidelines deﬁned above. If these are fulﬁlled, the same author codes all
+relevant features of the primary study with respect to the dimensions included in the MRA. In a subsequent step, each paper is read
+2
+
+As a consequence, we preclude studies focussing exclusively on the impact of supranational rules or budgetary procedures (e.g., von Hagen, 2002)
+Further guidelines for meta-analyses are oﬀered by Stanley and Doucouliagos (2012) or Nelson and Kenedy (2009).
+Please note that this does not apply to the time coverage of primary studies.
+5
+While we preclude studies focusing exclusively on supranational rules, the latter is taken explicitly into account in our MRA if they have been used as a control
+variable (e.g., Dahan and Strawczynski, 2013).
+3
+4
+
+70
+
+European Journal of Political Economy 51 (2018) 69–92
+
+F. Heinemann et al.
+
+again individually by one of the remaining authors and coding decisions are double checked.6 This results in a total of 30 studies
+forming the basis of our analysis. Table A.1 provides a comprehensive overview of these papers.
+3. Data and descriptive statistics
+3.1. Variable coding
+In order to render the estimation of a meta-regression feasible, idiosyncratic features of the considered primary studies must be
+merged into a set of common and comparable control variables. This process comes along with several key challenges. In the context
+of a MRA, one would ideally like to extract a uniformly deﬁned impact coeﬃcient which would be immediately comparable across
+primary studies. In our context, however, this is not feasible due to the large methodological heterogeneity within this strand of
+literature.
+First, there is substantial heterogeneity with respect to the dependent variable in primary studies. While slightly less than one
+third of our observations relate to the primary deﬁcit as dependent variable, one quarter refers to either expenditures or revenues.
+Also the coding of the dependent variable diﬀers, i.e., dependent variables are expressed in relation to the GDP, revenues, or in per
+capita or absolute terms. Together these circumstances impede the direct comparability of eﬀects across studies.
+Second, there is substantial heterogeneity with respect to the codiﬁcation of ﬁscal rules. As shown below, primary studies in our
+MRA capture the impact of ﬁscal rules either through dummy, discrete, or continuous variables. Given these diﬀerences, comparing
+marginal eﬀects of ﬁscal rules across studies is not possible as the switch from 0 to 1 in case of a dummy variable is not necessarily
+comparable to a change from an index value a to b in case of a continuous index. Therefore, we follow meta-analytical studies such as
+Card et al. (2010) which face a similar challenge and which rely on the t-value rather than on the coeﬃcient of the impact of ﬁscal
+rules.7 The t-value is immediately and fully comparable across studies and indicates whether a ﬁscal rule has a positive, negative, or
+no statistically signiﬁcant impact on the respective ﬁscal indicator. Furthermore, it is independent from the unit of measurement
+employed in the primary study.
+A clariﬁcation is necessary with respect to the sign convention applied in the context of our MRA. In light of the core research
+question, the goal of this MRA is to subsume existing empirical evidence on whether ﬁscal rules constrain budgetary policy and shift
+it towards a more sustainable path. If ﬁscal rules are indeed eﬀective in this regard, they should reduce deﬁcits, debt as well as
+expenditures and increase revenues. In order to account for these aspects, we code t-values of primary studies in a way that a
+negative sign always indicates a constraining impact, i.e., a ﬁscal rule lowers deﬁcit, debt, and expenditures, or increases revenues,
+respectively.8
+We account for the richness of speciﬁcations across considered primary studies by subsuming speciﬁc dimensions into the
+following variable groups: (i) the classiﬁcation of the dependent variable, (ii) the type of the ﬁscal rule, (iii) the administrative level
+the primary study's data is referring to, (iv) a general set of control variables usually employed in studies within this strand of
+literature subsuming economic and political-economic features, (v) indicators testing for a potential publication bias, and (vi)
+characteristics of the econometric speciﬁcation. Additionally, we pay particular attention to strategies used to deal with the issue of
+endogeneity and subsume respective strategies in the group (vii) identiﬁcation strategies. Within these groups, usually several
+individual variables account for diﬀerent aspects of the respective topic. In order to test for the robustness of our results, we extend
+the set of groups and include the country as well as time coverage of primary studies. A detailed description of all meta-analytical
+variables is provided in Table A.2 in the appendix.
+The variables capturing the publication bias as well as the group of identiﬁcation strategies need a more detailed discussion. The
+presence of a publication bias is a well-documented phenomenon in social sciences (e.g., Franco et al., 2014; Gerber and Malhotra,
+2008). If statistically signiﬁcant empirical ﬁndings have a higher probability of being accepted for publication (holding other study
+features constant), published estimates will provide a misleading guidance on the true parameters. With respect to economics, there
+is evidence for a publication bias towards statistically signiﬁcant outcomes for example within the strands of literature on minimum
+wages, returns to education, productivity, and growth (Gerber and Malhotra, 2008). The mechanism behind the publication bias
+comprises two stages. First, authors may abstain from writing and submitting papers on statistically insigniﬁcant ﬁndings
+(submission bias). Second, journals may be more likely to accept papers with statistically signiﬁcant results even if other
+methodologically comparable papers provide statistically imprecise evidence (acceptance bias). An analysis of a submission bias is
+only very rarely feasible as this would require full information on the entire sample of studies independent of their publication
+status.9 Therefore, our meta-regression-analysis can only provide evidence with respect to the acceptance bias by comparing
+systematic diﬀerences in levels of reported statistical signiﬁcance for working papers and journal articles.
+With respect to identiﬁcation strategies, numerous studies investigating empirically the eﬀectiveness of ﬁscal rules share a
+common point of criticism. Many primary studies neglect or only deal insuﬃciently with the potential presence of a common cause
+6
+We include the complete set of estimations from each study in our sample. Authors may include so called “straw man” estimation speciﬁcations with the only goal
+of contrasting them with “better” or richer ones. However, a selective inclusion would introduce an element of arbitrariness on the side of the meta-analysts and must
+be avoided. Our meta-analysis relies on a rich set of coded dimensions and therefore objectively reﬂects the heterogeneity of speciﬁcations across and within studies.
+7
+Further studies relying on t-values instead of coeﬃcients involve Baskaran et al. (2014) as well as Klomp and de Haan (2010).
+8
+In case of primary studies relying on revenues as the dependent variable, we invert the sign of the t-values capturing the impact of ﬁscal rules. By the same token,
+we also invert the sign of studies using the budgetary balance as the dependent variable. Yet, this does not apply to studies using the deﬁcit.
+9
+For one of these rare applications see Franco et al. (2014).
+
+71
+
+European Journal of Political Economy 51 (2018) 69–92
+
+F. Heinemann et al.
+
+interdependence, omitted variables bias, or reversed causality. Some empirical studies tried to tackle these potential issues. For
+instance, one strand of the literature argues in favour of a time-invariance of ﬁscal preferences. Given such a setting, implementing a
+simple ﬁxed eﬀects estimation accounting for unobserved and time-invariant individual heterogeneity would suﬃce to take the
+impact of ﬁscal preferences into account (e.g., Krogstrup and Wälti, 2008). Another strand of the literature relaxes the assumption of
+time-invariant preferences and tries to measure ﬁscal preferences explicitly.10 Primary studies implementing IV-strategies or quasiexperimental methods pose another approach with respect to the causal inference. For instance, Foremny (2014) implements an IVestimation relying on political determinants of the level of government as well as indicators for the general ﬁscal stance of a country
+as instruments. Grembi et al. (2012) applies a diﬀerence-in-discontinuities approach in a subnational context for Italian
+municipalities.
+In order to account for these diﬀerences in identiﬁcation approaches, we derive four diﬀerent dummy variables which subsume
+diﬀerent dimensions of the described strategies. The Identiﬁcation dummy 1 forms the most comprehensive approach and is set to
+one if at least one of the above described four strategies (ﬁxed eﬀects, measurement of ﬁscal preferences, IV-strategies, and quasiexperimental methods) are employed in the primary study. The subsequent dummies each drop a particular strategy sequentially.
+While the Identiﬁcation dummy 2 excludes jurisdiction ﬁxed eﬀects from its deﬁnition, Identiﬁcation dummy 3 subsumes IVstrategies as well as quasi-experimental methods, whereas Identiﬁcation dummy 4 is only set to 1 if quasi-experimental methods are
+implemented.
+3.2. Descriptive statistics
+In the following, we present speciﬁc sample characteristics. In order to avoid that the results suﬀer from extreme outliers, we
+trim the distribution of t-values by excluding the top and bottom 1% percentiles.11 In all summary tables, we present the number of
+observations and the percentage share in relation to the total number of 1,033 observations, the number of studies employing the
+respective variable, minimum and maximum t-values as well as unweighted and weighted mean t-values. The latter are computed as
+the number of observations extracted from primary studies and are not equally distributed. For instance, just two studies out of 30
+(Nerlich and Reuter, 2013: 215 observations; Tapsoba, 2012: 220 observations) account for almost half of the full sample (435
+observations in relation to 1,033 observations). In order to avoid biased descriptives or point estimates (Section 5), we apply an
+analytical weighting procedure and weight each observation with the inverse of the share of observations per study in relation to the
+full sample. As a result, we assign an equal weight to each study in the full sample.12
+Table 1 gives a summary of the classiﬁcation of the dependent variable. We distinguish between six dependent variables: debt,
+secondary deﬁcit, primary deﬁcit, secondary expenditure, primary expenditure, and revenue. Most of the studies rely on the deﬁcit
+(39.5% of the total) or expenditures (33.5% of the total) as the dependent variable. On average, observations taken from studies with
+debt as the dependent variable lack statistical signiﬁcance at conventional levels. The opposite holds true for observations obtained
+from studies relying on the deﬁcit. Irrespective of the weighting, observations in studies with secondary and primary deﬁcit as the
+dependent variable are on average statistically signiﬁcant at the 5% level. In contrast, the weighting reduces the statistical precision
+of studies with secondary expenditures as a dependent variable. For all dependent variables with the exception of revenues, mean tvalues exhibit a negative sign indicating a constraining eﬀect of rules on average irrespective of weighting.
+To gain further insights into the distribution of t-values, we also present a boxplot graph in Fig. 1. The dashed line marks the 5%
+threshold for statistical signiﬁcance (t-value=−1.96). The margins of the boxes indicate the 25% and the 75% quartiles whereas the
+vertical line in between depicts the median t-value.13 In particular studies employing the secondary deﬁcit as dependent variable
+exhibit statistically signiﬁcant results. More than 50% of the observations are statistically signiﬁcant at the 5% level. A similar result
+is found for studies relying on the primary deﬁcit or primary expenditure with a median t-value being only slightly below the 5%
+threshold. In case of debt as the dependent variable, only 25% of the observations are statistically signiﬁcant at the 5% level.
+Concerning the skewness of the distribution, t-values from observations with debt and (to a lesser extent) primary deﬁcit as
+dependent variable are skewed to the left while the opposite holds true for observations with primary and secondary expenditure.
+In Table 2, we present summary statistics for the type of the ﬁscal rule and the administrative level to which the primary studies’
+data refer to. With respect to the former, we distinguish between debt rules, deﬁcit rules, expenditure rules, and revenue rules.14
+Again, there are diﬀerences between weighted and unweighted means. While most of the unweighted mean t-values of various rule
+types indicate a statistical signiﬁcance at the 10% level (the exception is the debt rule which is marginally insigniﬁcant), statistical
+signiﬁcance is lost when we employ analytical weights. However, observations in case of deﬁcit rules are close to statistical
+signiﬁcance with a weighted mean t-value of −1.515. With respect to the distribution of rule types across studies, deﬁcit rules are
+used in more than 70% of the cases, while revenue rules are only employed in about one third of the sample. Mean t-values and
+information on the distribution of observations for the administrative level are presented in the bottom part of Table 2. In total,
+63.2% of the observations stem from studies for the national level, while the remaining part is equally shared between observations
+10
+
+Heinemann et al. (2014), for instance, use historical inﬂation rates or some measure of political preferences of the executive government.
+Without trimming, the minimum and maximum t-values are equal to -40.710 and 11.230, respectively. The t-value distribution distinguished along types of
+dependent variables and without trimming as well as weighting is shown in Fig. A.1 in the appendix.
+12
+For more information see Section 4.
+13
+Single dots represent outliers identiﬁed by standard whisker plots using a distance of 1.5 times the inter-quartile range above the 75% quartile and below the
+25% quartile.
+14
+As some primary studies employ composite indicators which comprise several rule types, the sum of the percentage shares exceeds 100%.
+11
+
+72
+
+European Journal of Political Economy 51 (2018) 69–92
+
+F. Heinemann et al.
+
+Table 1
+Summary for the classification of the dependent variable.
+Variable
+
+Debt
+Secondary deﬁcit
+Primary deﬁcit
+Secondary exp.
+Primary exp.
+Revenue
+
+Obs.
+
+119
+128
+280
+221
+125
+160
+
+% sample
+
+Studies
+
+11.5
+12.4
+27.1
+21.3
+12.1
+15.4
+
+Mean t-value
+
+7
+15
+13
+13
+4
+10
+
+unweighted
+
+weighted
+
+−1.538
+−2.116
+−2.265
+−1.647
+−1.931
+0.024
+
+−1.273
+−2.134
+−1.778
+−0.874
+−1.720
+−0.155
+
+Min.
+
+Max.
+
+−4.710
+−10.630
+−9.890
+−11.730
+−4.042
+−9.400
+
+3.360
+1.900
+2.498
+4.311
+4.038
+4.250
+
+Notes: The total number of observations is 1,033 based on 30 studies. The statistics are based on trimmed data excluding the top and bottom 1% percentiles.
+Observations are weighted with the inverse of the share of observations per study in relation to the full sample. Because several studies employ more than one
+dependent variable, the sum of studies exceeds the total number of studies.
+
+debt
+
+secondary deficit
+
+primary deficit
+
+secondary expenditure
+
+primary expenditure
+
+revenue
+-15
+
+-10
+
+-5
+t-value
+
+0
+
+5
+
+Fig. 1. Boxplot for the classiﬁcation of the dependent variable.
+Notes: The total number of observations is 1,033 based on 30 studies. The statistics are based on trimmed data excluding the top and bottom 1% percentiles.
+Observations are weighted with the inverse of the share of observations per study in relation to the full sample. The dashed line marks the 5%-threshold for statistical
+signiﬁcance (t-value=−1.96).
+
+Table 2
+Summary for the type of fiscal rules and the administrative level.
+Variable
+
+Obs.
+
+% sample
+
+Studies
+
+Mean t-value
+unweighted
+
+weighted
+
+Min.
+
+Max.
+
+Type of ﬁscal rule
+Debt rule
+Deﬁcit rule
+Expenditure rule
+Revenue rule
+
+485
+753
+496
+339
+
+46.9
+72.8
+45.4
+32.8
+
+16
+27
+20
+15
+
+−1.629
+−1.732
+−1.697
+−1.723
+
+−1.033
+−1.515
+−0.932
+−0.973
+
+−9.890
+−11.730
+−9.890
+−9.890
+
+4.311
+4.311
+4.311
+4.311
+
+Administrative level
+National
+State
+Municipal
+
+653
+192
+188
+
+63.2
+18.5
+18.1
+
+17
+8
+5
+
+−1.649
+−1.400
+−1.829
+
+−1.124
+−1.297
+−2.154
+
+−9.890
+−5.097
+−11.730
+
+4.311
+4.250
+3.470
+
+Notes: The total number of observations is 1,033 based on 30 studies. The statistics are based on trimmed data excluding the top and bottom 1% percentiles.
+Observations are weighted with the inverse of the share of observations per study in relation to the full sample. Because several studies employ more than one type of
+a fiscal rule, the sum of studies and observations exceeds the total number of studies/observations.
+
+from the state or municipal level. The most stable (with respect to weighting) and statistically signiﬁcant eﬀect is found for
+observations with data for the municipal level.
+We present information on the coverage of control variables and applied identiﬁcation strategies in Table 3. In contrast to the tables
+presented above, only weighted mean t-values distinguishing between studies including this particular variable (or identiﬁcation
+strategy) or not are shown. Furthermore, we present the number and percentage shares of observations and studies. The inclusion of
+73
+
+European Journal of Political Economy 51 (2018) 69–92
+
+F. Heinemann et al.
+
+Table 3
+Coverage of control variable groups and identification strategies.
+Variable
+
+Obs.
+
+% sample
+
+Studies
+
+% studies
+
+Mean t-value if
+included
+
+not included
+
+Groups of control variables
+Ideology
+Government stability
+Election year
+Debt level
+Openness
+Dependency ratio
+Supranational rule
+
+441
+316
+526
+610
+265
+481
+557
+
+43
+31
+51
+59
+26
+47
+54
+
+12
+4
+11
+13
+6
+4
+6
+
+40
+13
+37
+43
+20
+13
+20
+
+−1.958
+−2.214
+−1.677
+−1.189
+−0.444
+−1.488
+−2.009
+
+−1.085
+−1.228
+−1.161
+−1.444
+−1.527
+−1.321
+−1.195
+
+Identiﬁcation strategy
+Jurisdiction ﬁxed eﬀects
+Preferences and culture
+2SLS IV
+Quasi-experimental
+
+690
+171
+28
+317
+
+67
+17
+3
+31
+
+25
+8
+5
+4
+
+83
+27
+17
+13
+
+−1.459
+−1.778
+−0.544
+−1.563
+
+−0.939
+−1.256
+−1.387
+−1.317
+
+Notes: The total number of observations is 1,033 based on 30 studies. Only weighted observations are presented. The statistics are based on trimmed data excluding
+the top and bottom 1% percentiles.
+
+speciﬁc groups of controls has an eﬀect on the statistical signiﬁcance of ﬁscal rules. The mean t-value becomes statistically signiﬁcant if
+authors control for ideology, government stability, electoral cycles, or supranational rules such as the Stability and Growth Pact. In
+contrast, the results are only marginally aﬀected by controlling for debt, openness, or the dependency ratio.
+With respect to the application of identiﬁcation strategies, we distinguish between the inclusion of jurisdiction ﬁxed eﬀects, proxies
+measuring preferences and cultural aspects directly, and the application of IV-estimators or quasi-experimental designs. For the majority
+of identiﬁcation strategies, their application is associated with statistically insigniﬁcant average t-values for the impact of ﬁscal rules. The
+sole exception is given by proxies for preferences and culture. When authors account for these preferences, average t-values range at the
+10% level of statistical signiﬁcance. However, larger absolute t-values, i.e., more constraining eﬀects of ﬁscal rules are observed if authors
+apply identiﬁcation strategies. Here, the sole exception is given by the application of IV-estimators.
+Lastly, Fig. 2 provides ﬁrst evidence for a publication bias in the data. The histogram plots the distribution of the t-values
+associated with observations obtained from published journal articles in our sample. The red line depicts the threshold of the 5%level of statistical signiﬁcance. The ﬁgure shows a missing mass in the distribution below the threshold and an excess mass just above
+it. Given this ﬁrst evidence for a publication bias, we explicitly control for it in our meta-regression in the next section.
+4. Empirical methodology
+
+0
+
+.1
+
+Density
+
+.2
+
+.3
+
+In contrast to classical meta-analyses, we rely on MRA techniques. While the former combines individual study results to an
+overall or consensus estimate by assuming between-study homogeneity, the latter explicitly investigates the extent to which
+
+-15
+
+-10
+
+-5
+
+0
+
+5
+
+t-value
+Fig. 2. Distribution of t-values of journal publications.
+Notes: 524 observations are obtained from journal publications. The red line marks the 5%-threshold for statistical signiﬁcance (t-value=−1.96). The mean t-value of
+journal publications is equal to −1.83 and the median is equal to −2.02.
+
+74
+
+European Journal of Political Economy 51 (2018) 69–92
+
+F. Heinemann et al.
+
+heterogeneity in primary results can be explained by one or several characteristics of the respective studies (Harbord and Higgins,
+2008).
+As explained above, due to the heterogeneity in coeﬃcients across primary studies, we employ the t-value of the ﬁscal rule's
+impact as our meta-analytical dependent variable. In line with the usual assumptions in case of MRA, we expect that heterogeneity in
+individual results of primary studies is driven by sampling error (ϵs, i), study- or design-speciﬁc factors (X) and the set of estimatespeciﬁc covariates (Z). Our baseline estimation can therefore be summarised by Eq. (1).
+
+^t = t + X β + Z γ + ϵ
+s, i
+0
+s, i
+s, i
+s, i
+
+(1)
+
+Here, ^ts, i refers to the estimated t-value in case of speciﬁcation i from primary study s. t0 is the intercept and captures the
+respectively deﬁned baseline t-value of the typical study across all primary studies considered in our MRA. This baseline is deﬁned as
+an estimation of the impact of a deﬁcit rule on the primary deﬁcit for the national level. Furthermore, the statistical signiﬁcance of
+the respective coeﬃcient is computed with robust standard errors and the study belongs to the class of refereed journal articles. The
+deﬁnition of a baseline is necessary due to the way of coding of the study- or design-speciﬁc features in the context of a MRA. This is
+done by individual dummy variables which are then usually combined to a sub-group in order to capture a particular design feature
+of the primary study. In this process, dummies constituting such a sub-group are usually self-excluding. Consequently, considering
+all of these dummy variables at the same time in our meta-regression would result into perfect multi-collinearity. Therefore, we
+deﬁne one particular feature as baseline for every sub-group where self-exclusion applies. Taken together, all these baseline features
+are captured by the intercept of our MRA. All reported coeﬃcients have to be interpreted relative to this baseline and report an
+impact of the deviation in this particular feature from the baseline.
+Given the heterogeneity in methodological approaches and sample sizes in primary studies, the variances of individual estimates
+of ^ts, i are not homoscedastic. Consequently, the estimation of Eq. (1) will be more eﬃcient using weighted least squares instead of
+ordinary least squares (Greene, 2003). The selection of proper weights, however, is not straightforward as our MRA does not rely on
+standardised coeﬃcients. While the literature usually uses the inverse of error term variances obtained from primary studies, this is
+not feasible in case of a MRA using t-values. Since we follow a multiple sampling approach in which information from all available
+estimations in primary studies are used, the number of observations resulting from particular studies diﬀer substantially. In order to
+avoid settings in which results and design features of particular primary studies constituting a large share in our sample drive the
+results of our MRA, we use analytical weights based on the inverse of the share of observations per study in relation to the full
+sample. These weights assign an equal weight to every primary study in our estimation sample.
+The fact that usually more than just one observation is obtained from each individual study has a further impact on the
+estimation of Eq. (1). As these individual observations are likely to be correlated due to the low within-variation in design features,
+error terms in the estimation of Eq. (1) are likely to be correlated as well. We therefore cluster standard errors at the level of studies
+considered in our MRA. However, since our sample consists of 30 studies, clustering will result in further econometric issues. First,
+one may argue that the number of clusters is too low potentially resulting in an underestimation of the underlying serial correlation
+in individual observations (Angrist and Pischke, 2009). Second, given the large heterogeneity in the number of primary estimates
+obtained from particular studies, the size of clusters will vary accordingly. Therefore, we also apply the so called wild-clusterbootstrap procedure in order to deal with both issues (Cameron et al., 2008). This permits to implement a bootstrapping procedure
+for the standard errors of Eq. (1) while taking the clustered structure of the data into account and re-samples along them (Cameron
+and Miller, 2015).
+We extend and vary the estimation methodology of Eq. (1) in several ways in order to test for the robustness of our results. First,
+we include two more groups of control variables in our MRA, namely the country and time coverage of primary studies. While this
+extension provides further insights compared to the baseline speciﬁcation, it comes at the expense of dropping the administrative
+level due to the highly pronounced correlation with these additional dimensions. In general, we also report the variance-inﬂationfactor in order to test for a potential bias due to high correlation between control variables.
+A further extension relates to the analysis of the publication bias. In a ﬁrst step, we change the baseline of this group and test for
+the impact of journal publications explicitly. In a second step, we use information about the impact factor of journals included in our
+MRA. The latter may allow to deduce a diﬀerential publication bias which may be dependent on the reputation of the particular
+journal the primary study has been published in.15
+With respect to the estimation methodology, we implement two diﬀerent approaches. First, we extend Eq. (1) by adding study
+ﬁxed eﬀects. This allows to control explicitly for unobserved study speciﬁc aspects which are by deﬁnition time-constant in the
+context of a MRA. Implementing a ﬁxed eﬀects regression, however, increases the demands on the control variables in a MRA as they
+must exhibit within variation. More precisely, this means that dimensions we control for in our MRA must vary across speciﬁcations
+within a particular study. As this is not necessarily the case for all dimensions in all primary studies, the meta-regressions employing
+ﬁxed eﬀects can only be implemented on a reduced set of control variables.
+Second, we follow Card et al. (2010) and implement an ordered probit approach as a further extension to the estimation
+methodology. To do so, t-statistics obtained from primary studies are split into three groups according to Eq. (2). These groups
+involve negative signiﬁcant (-1), insigniﬁcant (0), and positive signiﬁcant (1) observations. The distinction is made by using the
+critical value of the t-distribution at the 5 % threshold. Obtained results are interpreted directly with respect to their sign and level of
+15
+While we have explicit panel information about the impact factors of journals considered in our MRA, we do not have respective information for working papers.
+In case of the latter, we assign a zero impact factor to working papers considered in our MRA.
+
+75
+
+European Journal of Political Economy 51 (2018) 69–92
+
+F. Heinemann et al.
+
+statistical signiﬁcance instead of computing explicit marginal eﬀects (see Card et al., 2010; Cameron and Trivedi, 2010).
+
+⎧−1, negative significant if ^t ≤ − 1.96
+s, i
+⎪
+∼t = ⎪
+⎨
+0, insignificant
+if −1.96 < ^ts, i < 1.96
+s, i
+⎪
+⎪1,
+positive significant if ^ts, i ≥ 1.96
+⎩
+
+(2)
+
+Finally, we also run estimations for the eﬀect size. For this analysis, the sample has to be limited to the largest homogenous
+subgroup which comprises of studies testing for the impact of ﬁscal rules on both primary and secondary deﬁcit expressed relative to
+the GDP as well as rules measured in terms of dummy variables. As in case of the baseline, we weight observations and estimate
+using weighted least squares. However, given the reduced sample size, the estimation speciﬁcation must be altered. This is due to the
+lack in coverage of particular dimensions as well as resulting collinearity between remaining groups of control variables in the
+MRA.16 Given the reduced sample size as well as reduced number of considered primary studies, results from this part of our
+analysis should only be interpreted with caution and seen as suggestive.
+5. Results
+5.1. Main results
+Table 4 summarises our baseline estimation results. All ﬁve columns report estimations of Eq. (1) using weighted least squares.
+The sample constitutes of 30 primary studies from which 1,033 observations are obtained. We report both clustered as well as wildcluster-bootstrapped t-values. While the former is noted in brackets, braces are used in case of the latter.
+Our MRA puts a special emphasis on the issue of endogeneity within this ﬁeld of literature and the identiﬁcation strategies
+followed in primary studies. Results in column (1) serve as the main speciﬁcation in which components constituting the
+identiﬁcation dummies are used individually. Columns (2) to (5) report results using sequentially the set of four identiﬁcation
+dummies derived in Section 3.
+Table 4 is dived into subsections by headlines indicating the respective group of study and design dimensions as well as their
+respective baseline category. The deﬁnition of the baseline study is constant throughout all speciﬁcations. It uses the primary deﬁcit
+as dependent variable, captures the impact of a deﬁcit rule, relies on data for the national level, reports robust standard errors, and
+belongs to the class of refereed journal publications.
+In case of the main speciﬁcation, the average consensus t-value for this baseline study is equal to −1.874. More precisely, primary
+studies exhibiting the design features deﬁned above are found to report a negative and statistically signiﬁcant impact of ﬁscal rules at
+the 10% threshold on average. Except for columns (2) and (5), this holds true for all other speciﬁcations in Table 4. The baseline in
+case of column (5) even indicates a negative and statistically signiﬁcant impact at the 5% level. These eﬀects are estimated with
+statistical precision in our MRA in case of both clustered as well as wild-cluster-bootstrapped standard errors.
+Relative to the baseline, variation in the dependent variable matters for the impact of ﬁscal rules. This is the case for debt,
+primary as well as secondary expenditures, and revenues. All variables are associated with positive coeﬃcients in case of our MRA,
+hereby indicating a reduction in the level of statistical signiﬁcance with which ﬁscal rules aﬀect these ﬁscal aggregates. For instance,
+in case of debt, the results of the MRA indicate a range of average t-values from −0.729 to 0.113. As a consequence, these results
+imply a level of signiﬁcance below the 10% threshold. This general observation holds true for all dependent variables for which
+coeﬃcients are estimated with statistical precision in our MRA. With the exception of primary expenditures, coeﬃcients are
+estimated with statistical precision at the 1% level in case of both clustered as well as wild-cluster-bootstrapped standard errors.
+In contrast to the dependent variable, variation in the type of ﬁscal rules does not matter and does not seem to exhibit an
+additional impact. This is the case throughout all ﬁve speciﬁcations and may be driven by the fact that numerous primary studies do
+not capture the type of the rule precisely or lump it together with other types of rules.
+New insights can be gained from the analysis of the administrative level the data of primary studies refer to. Here, the results of
+our MRA indicate that on average and in absolute terms higher t-values are associated with studies relying on data referring to the
+municipal level. This indicates that relative to the baseline which captures a signiﬁcant impact at the national level, rules at the
+municipal level exhibit an even stronger statistically signiﬁcant impact. The results imply levels of signiﬁcance at the 1% threshold
+and are estimated with statistical precision in our MRA.
+With respect to control variables, the picture is less clear cut. Usual control variables employed in primary studies such as the
+debt level, government stability or election years are not associated with an additional impact in terms of statistical signiﬁcance.
+Other variables such as the ideology or dependency ratio exhibit a diﬀerential impact which, however, is not robust throughout all
+speciﬁcations of our MRA. While estimated coeﬃcients in case of the former are negative for all ﬁve speciﬁcations of Table 4, they are
+only estimated with statistical precision in case of speciﬁcations (2) and (3). In case of the dependency ratio, reported coeﬃcients are
+positive. However, they are only precisely estimated in cases of speciﬁcations (1), (3) and (5). Further, this precision is lost if wildcluster-bootstrapped standard errors are computed.
+These results indicate that primary studies accounting for a discretionary impact of ideology are on average associated with
+16
+We explicitly control whether all remaining variables in the MRA for the eﬀect size are backed by more than one study. This is especially important given the
+reduced sample size and reduced number of considered studies.
+
+76
+
+European Journal of Political Economy 51 (2018) 69–92
+
+F. Heinemann et al.
+
+Table 4
+Meta-Regression-Analysis: Results using weighted least squares.
+(1)
+Main specification
+
+(2)
+Identification 1
+
+(3)
+Identification 2
+
+(4)
+Identification 3
+
+(5)
+Identification 4
+
+−1.874
+[-2.66]**
+{-2.06}**
+
+−1.254
+[−1.39]
+{−1.01}
+
+−1.762
+[-2.29]**
+{−1.66}*
+
+−1.758
+[-2.24]**
+{−1.62}
+
+−2.057
+[-2.57]**
+{−1.83}*
+
+Classiﬁcation of dependent variable, Baseline: Primary deﬁcit
+Secondary deﬁcit
+0.103
+[0.24]
+{0.13}
+Debt
+1.464
+[2.98]***
+{2.75}***
+Primary expenditure
+1.301
+[2.31]**
+{1.41}
+Secondary expenditure
+1.536
+[3.70]***
+{2.88}***
+Revenue
+2.346
+[3.96]***
+{3.10}***
+
+0.136
+[0.30]
+{0.18}
+1.367
+[2.73]**
+{2.52}**
+1.162
+[2.27]**
+{1.52}
+1.549
+[3.46]***
+{2.66}***
+2.331
+[3.98]***
+{3.10}***
+
+0.061
+[0.14]
+{0.05}
+1.500
+[2.95]***
+{2.88}***
+1.303
+[2.23]**
+{1.37}
+1.491
+[3.50]***
+{2.66}***
+2.380
+[3.82]***
+{2.88}***
+
+0.055
+[0.13]
+{0.04}
+1.315
+[2.61]**
+{2.29}**
+1.169
+[2.39]**
+{1.59}
+1.511
+[3.55]***
+{2.88}***
+2.372
+[3.76]***
+{2.75}***
+
+0.213
+[0.48]
+{0.33}
+1.328
+[2.68]**
+{2.23}**
+1.151
+[2.40]**
+{1.61}
+1.671
+[3.77]***
+{3.10}***
+2.379
+[3.75]***
+{3.10}***
+
+Type of ﬁscal rule, Baseline: Deﬁcit rule
+Debt rule
+0.189
+[0.63]
+{0.57}
+Expenditure rule
+0.229
+[0.36]
+{0.24}
+Revenue rule
+−0.323
+[−0.45]
+{−0.21}
+
+0.521
+[1.69]
+{1.43}
+0.067
+[0.10]
+{0.09}
+−0.804
+[−1.04]
+{−0.63}
+
+0.272
+[0.90]
+{0.84}
+0.140
+[0.22]
+{0.16}
+−0.497
+[−0.67]
+{−0.36}
+
+0.355
+[1.23]
+{1.06}
+0.224
+[0.34]
+{0.27}
+−0.514
+[−0.70]
+{−0.39}
+
+0.382
+[1.25]
+{1.05}
+0.360
+[0.52]
+{0.35}
+−0.503
+[−0.68]
+{−0.35}
+
+Baseline eﬀect
+
+Administrative level, Baseline: National
+State
+0.996
+[1.43]
+{1.04}
+Municipal
+−3.029
+[-3.40]***
+{−1.93}*
+Control variables
+Ideology
+−0.638
+[−1.41]
+{−1.03}
+Government stability
+−0.011
+[−0.02]
+{−0.08}
+Election years
+−0.029
+[−0.08]
+{−0.07}
+Debt level
+−0.615
+[−1.13]
+{−0.67}
+Openness
+0.615
+[1.25]
+{1.04}
+Dependency ratio
+1.558
+[2.07]**
+{1.58}
+Supranational rule
+−0.960
+[-2.33]**
+{−1.98}**
+
+1.028
+[1.48]
+{1.19}
+−2.053
+[-2.66]**
+{−1.55}
+
+1.015
+[1.45]
+{1.12}
+−2.626
+[-3.46]***
+{-2.08}**
+
+0.996
+[1.41]
+{1.07}
+−2.662
+[-3.45]***
+{−1.98}**
+
+0.948
+[1.30]
+{0.98}
+−2.969
+[-3.36]***
+{−1.83}*
+
+−0.902
+[-2.23]**
+{−1.79}*
+0.503
+[1.09]
+{0.87}
+−0.200
+[−0.51]
+{−0.39}
+−0.074
+[−0.14]
+{−0.02}
+0.378
+[0.78]
+{0.65}
+1.015
+[1.52]
+{1.39}
+−0.834
+[-2.14]**
+{−1.83}*
+
+−0.865
+[-2.19]**
+{−1.72}*
+0.235
+[0.56]
+{0.39}
+−0.123
+[−0.34]
+{−0.35}
+−0.567
+[−1.09]
+{−0.61}
+0.642
+[1.46]
+{1.28}
+1.189
+[1.78]*
+{1.58}
+−0.873
+[-2.45]**
+{-2.08}**
+
+−0.694
+[−1.68]
+{−1.24}
+−0.030
+[−0.06]
+{−0.10}
+−0.004
+[−0.01]
+{−0.01}
+−0.455
+[−0.89]
+{−0.49}
+0.541
+[1.19]
+{1.01}
+0.928
+[1.42]
+{1.31}
+−0.556
+[−1.45]
+{−1.30}
+
+−0.526
+[−1.14]
+{−0.91}
+−0.024
+[−0.05]
+{−0.08}
+0.018
+[0.05]
+{0.05}
+−0.371
+[−0.69]
+{−0.35}
+0.602
+[1.27]
+{1.12}
+1.300
+[1.76]*
+{1.43}
+−0.728
+[−1.95]*
+{−1.72}*
+
+Publication bias, Baseline: Refereed journal
+Working paper
+1.474
+[3.22]***
+{1.96}*
+
+1.656
+[3.53]***
+{2.08}**
+
+1.527
+[3.63]***
+{2.26}**
+
+1.357
+[3.04]***
+{1.85}*
+
+1.352
+[3.10]***
+{1.95}*
+(continued on next page)
+
+77
+
+European Journal of Political Economy 51 (2018) 69–92
+
+F. Heinemann et al.
+
+Table 4 (continued)
+(1)
+Main specification
+Econometric speciﬁcation, Baseline: Robust S.E.
+Interaction
+0.284
+[0.57]
+{0.47}
+Dynamic speciﬁcation
+−0.001
+[−0.00]
+{−0.02}
+Time ﬁxed eﬀects
+−1.565
+[-2.62]**
+{−1.60}
+Plain S.E.
+0.084
+[0.16]
+{0.11}
+Clustered S.E
+−0.144
+[−0.32]
+{−0.22}
+Bootstrapped S.E.
+−2.252
+[-2.17]**
+{−1.44}
+Identiﬁcation
+Jurisdiction ﬁxed eﬀects
+(A)
+Preferences and culture
+(B)
+2SLS IV
+(C)
+Quasi-experimental
+(D)
+
+(2)
+Identification 1
+
+(3)
+Identification 2
+
+(4)
+Identification 3
+
+(5)
+Identification 4
+
+0.272
+[0.54]
+{0.43}
+−0.055
+[−0.13]
+{−0.13}
+−0.965
+[-2.02]*
+{−1.39}
+−0.352
+[−0.66]
+{−0.47}
+−0.247
+[−0.51]
+{−0.36}
+−1.484
+[−1.92]*
+{−1.61}
+
+0.240
+[0.47]
+{0.37}
+−0.106
+[−0.27]
+{−0.19}
+−1.490
+[-2.63]**
+{−1.65}
+−0.043
+[−0.08]
+{−0.03}
+−0.080
+[−0.18]
+{−0.11}
+−1.692
+[-2.12]**
+{−1.64}
+
+0.299
+[0.59]
+{0.46}
+−0.183
+[−0.45]
+{−0.31}
+−1.344
+[-2.64]**
+{−1.64}
+−0.205
+[−0.40]
+{−0.28}
+−0.228
+[−0.53]
+{−0.41}
+−1.879
+[-2.29]**
+{−1.74}*
+
+0.366
+[0.74]
+{0.61}
+−0.163
+[−0.43]
+{−0.32}
+−1.303
+[-2.54]**
+{−1.54}
+−0.032
+[−0.06]
+{−0.04}
+−0.183
+[−0.42]
+{−0.27}
+−2.395
+[-2.28]**
+{−1.62}
+
+−0.109
+[−0.24]
+{−0.22}
+0.678
+[1.86]*
+{1.45}
+0.730
+[1.59]
+{1.30}
+1.472
+[1.75]*
+{1.39}
+−0.802
+[−1.00]
+{−0.75}
+
+Identiﬁcation dummy 1
+(A) + (B) + (C) + (D)
+Identiﬁcation dummy 2
+(B) + (C) + (D)
+
+0.709
+[2.11]**
+{1.70}*
+
+Identiﬁcation dummy 3
+(C) + (D)
+
+1.104
+[2.43]**
+{1.91}*
+
+Identiﬁcation dummy 4
+(D)
+
+N
+
+R2
+VIF (maximum)
+
+1.673
+[1.99]*
+{1.52}
+1033
+0.365
+
+1033
+0.345
+
+1033
+0.351
+
+1033
+0.355
+
+1033
+0.353
+
+5.453
+
+4.887
+
+4.506
+
+4.508
+
+4.701
+
+Notes: Clustered t-statistics in brackets, wild-cluster-bootstrapped t-statistics in braces. All speciﬁcations estimated using weighted least squares. Data is trimmed
+excluding the top and bottom 1% percentiles. Analytical weights equalising the weight for every study are included.
+*
+p < 0.10 .
+**
+p < 0.05.
+***
+p < 0.01.
+
+higher levels of statistical signiﬁcance concerning the constraining impact of ﬁscal rules. In contrast, studies controlling for the
+dependency ratio yield on average t-values in the range of −0.830 to −0.239 implying a loss in statistical signiﬁcance. More robust
+evidence is provided by our MRA with respect to the presence of supranational ﬁscal rules. With the exception of column (4), all
+coeﬃcients are precisely estimated in our MRA and point to higher levels of statistical signiﬁcance with respect to the constraining
+impact of national ﬁscal rules if primary studies control for the presence of supranational rules.
+The results of our MRA also oﬀer insights with respect to the presence of a publication bias. Throughout all speciﬁcations,
+obtained coeﬃcients are positive and precisely estimated considering both clustered as well as wild-cluster-bootstrapped standard
+errors. Relative to the baseline which is deﬁned as publication in a refereed journal, our results indicate that average t-values for
+publications in working papers range between −0.705 and 0.402. These results indicate that on average publications in a refereed
+journal are more likely to provide evidence for a negative and signiﬁcant impact of ﬁscal rules, while results in working papers are
+78
+
+European Journal of Political Economy 51 (2018) 69–92
+
+F. Heinemann et al.
+
+Table 5
+Meta-Regression-Analysis: Results using further study dimensions.
+
+Baseline eﬀect
+
+(1)
+Country coverage
+
+(2)
+Time coverage
+
+(3)
+Journal
+
+(4)
+Impact factor
+
+−1.271
+[−1.53]
+{−1.11}
+
+0.494
+[0.38]
+{0.27}
+
+−0.400
+[−0.59]
+{−0.48}
+
+−1.336
+[−1.55]
+{−1.12}
+
+Country coverage, Baseline: EU countries
+Switzerland
+−1.195
+[−1.72]*
+{−1.20}
+USA
+−1.180
+[−0.95]
+{−0.59}
+Euro Members
+−0.936
+[−1.15]
+{−0.68}
+OECD Members
+0.277
+[0.55]
+{0.46}
+Other countries
+0.024
+[0.03]
+{0.04}
+Time coverage
+1950s
+
+−3.146
+[-2.02]*
+{−1.45}
+2.424
+[1.97]*
+{1.18}
+−2.412
+[-3.12]***
+{−1.55}
+1.628
+[2.17]**
+{1.34}
+−0.761
+[−0.91]
+{−0.64}
+−1.506
+[−1.61]
+{−0.81}
+−0.846
+[−1.22]
+{−0.78}
+
+1960s
+
+1970s
+
+1980s
+
+1990s
+
+2000s
+
+2010s
+
+Publication bias, Baseline in columns: (1-2) Refereed journal; (3-4) Working paper
+Working paper
+0.547
+1.173
+[0.78]
+[1.92]*
+{0.45}
+{0.82}
+Journal
+
+−1.474
+[-3.22]***
+{−1.95}*
+−0.480
+[−1.23]
+{−0.74}
+
+Impact factor
+
+Dropped dimension
+N
+
+R2
+
+Admin. level
+1033
+0.302
+
+Admin. level
+1033
+0.348
+
+Working paper
+1033
+0.365
+
+Working paper
+1029
+0.343
+
+Notes: Clustered t-statistics in brackets, wild-cluster-bootstrapped t-statistics in braces. All speciﬁcations estimated using weighted least squares. All estimations
+exhibit the same set of control variables as the main speciﬁcation except for the dropped dimension as indicated in the table. The reduced sample size in column (4) is
+due to lacking information on impact factors. Data is trimmed excluding the top and bottom 1% percentiles. Analytical weights equalising the weight for every study
+are included.
+*
+p < 0.10 .
+**
+p < 0.05.
+***
+p < 0.01.
+
+79
+
+European Journal of Political Economy 51 (2018) 69–92
+
+F. Heinemann et al.
+
+Table 6
+Meta-Regression-Analysis: Results for the effect size.
+(1)
+Main specification
+
+(2)
+Country coverage
+
+(3)
+Time coverage
+
+(4)
+Journal
+
+(5)
+Impact factor
+
+−1.231
+[-2.53]**
+{−1.32}
+
+−1.306
+[-3.23]**
+{−1.48}
+
+−1.357
+[−1.34]
+{−0.72}
+
+1.280
+[0.73]
+{0.62}
+
+−1.521
+[-3.06]**
+{−1.50}
+
+Classiﬁcation of dependent variable, Baseline: Primary deﬁcit
+Secondary deﬁcit
+0.546
+[3.13]**
+{ 7.1e+18}***
+
+0.546
+[3.11]**
+{ 7.1e+18}***
+
+0.546
+[3.11]**
+{ 7.1e+18}***
+
+0.546
+[3.13]**
+{ 7.1e+18}***
+
+0.471
+[2.06]*
+{0.71}
+
+Type of ﬁscal rule, Baseline: Deﬁcit rule
+Debt rule
+0.332
+[1.72]
+{0.91}
+Expenditure rule
+2.822
+[1.87]*
+{0.76}
+Revenue rule
+−3.148
+[-2.06]*
+{−0.75}
+
+0.332
+[1.70]
+{0.91}
+2.822
+[1.86]
+{0.76}
+−3.147
+[-2.04]*
+{−0.75}
+
+0.325
+[1.76]
+{0.95}
+2.821
+[1.86]
+{0.76}
+−3.139
+[-2.03]*
+{−0.75}
+
+0.332
+[1.72]
+{0.91}
+2.822
+[1.87]*
+{0.76}
+−3.148
+[-2.06]*
+{−0.75}
+
+0.280
+[1.61]
+{1.16}
+2.802
+[1.86]
+{0.76}
+−2.839
+[−1.97]*
+{−0.75}
+
+4.122
+[3.17]**
+{1.55}
+
+3.484
+[2.89]**
+{1.40}
+
+Baseline eﬀect
+
+Administrative level, Baseline: National
+State
+4.122
+[3.17]**
+{1.55}
+Control variables
+Ideology
+−2.544
+[-4.23]***
+{-2.09}**
+Government stability
+−0.295
+[−0.48]
+{−0.45}
+Election years
+−0.112
+[−0.64]
+{−0.62}
+Debt level
+−0.061
+[−1.71]
+{−0.95}
+Supranational rule
+1.791
+[2.50]**
+{1.74}*
+
+−0.448
+[−0.66]
+{−0.72}
+1.743
+[3.68]***
+{0.87}
+−0.125
+[−0.71]
+{−0.62}
+−0.061
+[−1.70]
+{−0.95}
+−0.245
+[−0.31]
+{−0.68}
+
+1.047
+[0.97]
+{0.66}
+3.492
+[5.01]***
+{1.55}
+−0.112
+[−0.64]
+{−0.62}
+−0.060
+[−1.72]
+{−0.95}
+−1.951
+[−1.78]
+{−1.06}
+
+−2.544
+[-4.23]***
+{-2.09}**
+−0.295
+[−0.48]
+{−0.45}
+−0.112
+[−0.64]
+{−0.62}
+−0.061
+[−1.71]
+{−0.95}
+1.791
+[2.50]**
+{1.74}*
+
+−3.075
+[-3.15]**
+{−1.56}
+−0.064
+[−0.10]
+{−0.14}
+−0.016
+[−0.07]
+{−0.04}
+0.293
+[0.61]
+{0.71}
+1.700
+[1.45]
+{1.04}
+
+Econometric speciﬁcation, Baseline: Robust S.E.
+Interaction
+0.887
+[1.03]
+{0.68}
+Dynamic speciﬁcation
+−0.596
+[-4.11]***
+{-3.14}***
+Time ﬁxed eﬀects
+0.859
+[0.67]
+{0.65}
+Plain S.E.
+−1.374
+[−1.28]
+{−0.72}
+Clustered S.E.
+−0.726
+[−0.83]
+{−0.88}
+Bootstrapped S.E.
+−0.616
+[-2.60]**
+{−1.12}
+
+0.886
+[1.01]
+{0.68}
+−0.596
+[-4.08]***
+{-3.14}***
+0.856
+[0.65]
+{0.59}
+−1.333
+[−1.17]
+{−0.68}
+−0.686
+[−0.77]
+{−0.90}
+−0.613
+[-2.55]**
+{−1.12}
+
+0.859
+[0.82]
+{0.68}
+−0.596
+[-4.08]***
+{-3.14}***
+0.291
+[0.21]
+{0.33}
+−4.603
+[-2.40]**
+{−1.55}
+0.538
+[0.27]
+{0.31}
+−0.540
+[−1.19]
+{−0.77}
+
+0.887
+[1.03]
+{0.68}
+−0.596
+[-4.11]***
+{-3.14}***
+0.859
+[0.67]
+{0.65}
+−1.374
+[−1.28]
+{−0.72}
+−0.726
+[−0.83]
+{−0.88}
+−0.616
+[-2.60]**
+{−1.12}
+
+0.064
+[0.11]
+{0.11}
+−0.569
+[-2.74]**
+{−0.83}
+−0.540
+[−1.01]
+{−0.84}
+−0.478
+[−0.93]
+{−0.57}
+3.621
+[1.76]
+{1.76}*
+0.231
+[0.53]
+{0.42}
+
+−0.657
+[−0.41]
+{−0.33}
+
+−0.002
+[−0.00]
+{−0.01}
+
+−0.664
+[−0.43]
+{−0.33}
+
+1.498
+[1.92]*
+{1.65}
+
+Identiﬁcation
+Jurisdiction ﬁxed eﬀects
+
+−0.664
+[−0.43]
+{−0.33}
+
+Country coverage, Baseline: EU countries
+(continued on next page)
+
+80
+
+European Journal of Political Economy 51 (2018) 69–92
+
+F. Heinemann et al.
+
+Table 6 (continued)
+(1)
+Main specification
+Euro Members
+
+(2)
+Country coverage
+
+(3)
+Time coverage
+
+(4)
+Journal
+
+2.064
+[3.30]**
+{1.42}
+0.030
+[0.16]
+{0.27}
+0.068
+[0.41]
+{0.63}
+
+OECD Members
+
+Other countries
+
+Time coverage
+1960s
+
+−4.019
+[−1.94]*
+{−1.41}
+3.288
+[2.77]**
+{1.04}
+−0.505
+[-2.24]*
+{−0.68}
+
+1970s
+
+2010s
+
+Publication bias, Baseline in columns: (1-3) Refereed journal; (4-5) Working paper
+Working paper
+2.512
+2.523
+[1.98]*
+[1.96]*
+{0.77}
+{0.77}
+Journal
+
+2.478
+[1.70]
+{0.72}
+−2.512
+[−1.98]*
+{−0.76}
+−2.112
+[−1.96]*
+{−1.67}*
+
+Impact factor
+
+N
+
+R2
+
+(5)
+Impact factor
+
+176
+0.376
+
+176
+0.376
+
+176
+0.377
+
+176
+0.376
+
+176
+0.372
+
+Notes: Clustered t-statistics in brackets, wild-cluster-bootstrapped t-statistics in braces. All speciﬁcations estimated using weighted least squares. The changes in the
+estimation speciﬁcation are due to the reduced sample size and the resulting lack in coverage of particular dimensions as well as collinearity. All remaining variables
+are backed by more than one study. Data is trimmed excluding the top and bottom 1% percentiles. Analytical weights equalising the weight for every study are
+included.
+*
+p < 0.10 .
+**
+p < 0.05.
+***
+p < 0.01.
+
+more likely to be insigniﬁcant. This points to an acceptance bias as the MRA controls for an exhaustive set of further study features
+which also proxy for the methodological rigour.
+With respect to properties of the econometric speciﬁcation, our MRA indicates that primary studies running estimations
+including time ﬁxed eﬀects report stronger negative and signiﬁcant eﬀects for the impact of ﬁscal rules. The same holds true in case
+of bootstrapped errors in comparison to robust standard errors of the baseline eﬀect. However, eﬀects for both variables are not
+conﬁrmed if wild-cluster-bootstrapped standard errors are considered in our MRA. Furthermore, it has to be emphasised that the
+obtained result for the baseline eﬀect persists irrespective of whether the observations from primary studies were part of an
+interaction eﬀect. This observation strengthens our results against the background of the multiple sampling approach employed in
+our MRA.
+The results with respect to identiﬁcation strategies employed in primary studies indicate that accounting for a potential
+endogeneity matters for the statistical signiﬁcance with which the eﬃcacy of ﬁscal rules is measured. In case of column (1), in which
+variables constituting the identiﬁcation dummies are employed individually, our results point to lower levels of statistical
+signiﬁcance if primary studies control explicitly for preferences or implement quasi-experimental estimation methods. This general
+observation is conﬁrmed in case of the identiﬁcation dummies 2, 3, and 4 which comprise of the individual components. Coeﬃcients
+of all three dummies exhibit positive signs and are, except for identiﬁcation dummy 4, estimated with statistical precision in our
+MRA using both clustered as well as wild-cluster-bootstrapped standard errors. Relative to the baseline eﬀect, accounting for a
+potential endogeneity yields a range of t-values between −1.053 and −0.384. Combining these outcomes with the insigniﬁcant result
+for identiﬁcation dummy 1, the size of the baseline eﬀect in column (2), and the results for preferences as well as quasi-experimental
+designs in column (1), our MRA provides strong evidence for the presence of potential endogeneity and the relevance of accounting
+for it when analysing the impact of ﬁscal rules empirically. Overall, this insight signiﬁcantly weakens the seemingly optimistic
+81
+
+European Journal of Political Economy 51 (2018) 69–92
+
+F. Heinemann et al.
+
+message with respect to the eﬀectiveness of ﬁscal rules given by the baseline eﬀect.
+5.2. Further study dimensions
+To gain further insights, we extend our analysis by adding two new variable groups as well as data on journal impact factors. The
+results for these alterations are summarised in Table 5. To economise on space, we only report the results for the newly added study
+dimensions. The full set of results is provided by Table A.5 in the appendix.
+As adding two new variable groups on country coverage and time coverage would cause problems with collinearity, it was
+necessary to drop information on the administrative level in the cases of column (1) and (2). Compared to the estimations in
+Table 4, the baseline level of statistical signiﬁcance of the impact of ﬁscal rules is lower. All four coeﬃcients indicate a statistical
+signiﬁcance below the 10% threshold.
+Including the country coverage as a further dimension asks for the deﬁnition of an additional baseline category. In this case, EU
+countries serve as the baseline. Relative to this subset of countries, only the coverage of Switzerland in primary studies is associated
+with an additional impact. More precisely, our results indicate that the impact of ﬁscal rules relative to the baseline is more
+pronounced in the context of Switzerland with average t-values at the 1% level. The picture in case of the time coverage is less clear
+cut. While primary studies covering data for the 1950s as well as 1970s provide evidence for a stronger statistical impact of ﬁscal
+rules well above the 1% threshold, primary studies covering the 1960s as well as 1980s provide evidence for the opposite.
+Switching the baseline category from journal publications to working papers in order to test the indicated publication bias
+conﬁrms the results of Table 4. Relative to the baseline, publications in journals are on average associated with negative and
+statistically signiﬁcant eﬀects at the 10% level. This is estimated with statistical precision in our MRA in case of both clustered as well
+as wild-cluster-bootstrapped standard errors. A diﬀerential eﬀect with increasing reputation of the journal by adding information on
+the impact factor is negated by our MRA. While studies published in refereed journals are generally more likely to report negative
+and statistical signiﬁcant eﬀects for the impact of ﬁscal rules, the level of statistical signiﬁcance is not further raised with increasing
+reputation of the journal. Consequently, a publication bias seems to be present for the extensive but not for the intensive margin. Put
+diﬀerently, high levels of statistical signiﬁcance tend to help authors to publish in a refereed journal in general but do not necessarily
+increase the acceptance rate in higher ranked relative to lower ranked journals.
+5.3. Other speciﬁcations
+As described in Section 4, we extend the estimation methodology to include study ﬁxed eﬀects (Table A.3) and implement an
+ordered probit analysis (Table A.4). In case of the former, alterations in the estimation speciﬁcation are entirely driven by the lack of
+within-variation in the respective variables. In case of the latter, alterations are due to the properties of the ordered probit approach
+which does not allow estimating a baseline eﬀect. Results for the latent variable are interpreted directly with respect to its sign as well
+as statistical precision.
+The evidence from the ﬁxed eﬀects estimation points to a negative and statistically signiﬁcant impact of ﬁscal rules above the 1%
+threshold. However, evidence from both approaches with respect to identiﬁcation strategies conﬁrm the general tendency for a
+reduction in statistical signiﬁcance of the eﬀects of ﬁscal rules. While these variables are only imprecisely estimated in case of the
+ﬁxed eﬀects estimation, identiﬁcation dummy 3 comprising IV's and quasi-experimental methods are estimated with statistical
+precision in case of the ordered probit approach.
+New insights are obtained with respect to control variables. While the results for ideology, the dependency ratio and
+supranational rules are conﬁrmed, the inclusion of government stability proxy is associated with a more pronounced impact of ﬁscal
+rules. The opposite is true for studies accounting for the impact of elections in case of the ﬁxed eﬀects estimations. Primary studies
+report on average a reduced constraining impact of ﬁscal rules when controlling for election years.17 Both estimation approaches
+conﬁrm the presence of a potential publication bias and indicate an increased likeliness for non-existent or positive signiﬁcant
+eﬀects if published in a working paper.
+5.4. Eﬀect-size analysis
+Table 6 summarises the results with respect to the eﬀect size for the largest homogeneous sub-group of observations. This subgroup consists of studies testing for the impact of ﬁscal rules on both the primary and secondary deﬁcit expressed relative to the GDP
+and measured in terms of a dummy variable. As a consequence, sample size is reduced signiﬁcantly including only nine primary
+studies and results should only be interpreted with caution and seen as suggestive. The alterations in the estimation speciﬁcation are
+due to the reduced sample size and the resulting lack in coverage of particular dimensions as well as collinearity.
+Against this background, the baseline eﬀect is estimated to range between −1.5 and 1.3 and can be interpreted as a reduction in
+the deﬁcit in percent of the GDP if a deﬁcit rule is present. With the exception of columns (3) and (4), these eﬀects are estimated with
+statistical precision. The eﬀect size is roughly reduced by 0.5 percentage points if the impact on the secondary rather than the
+primary deﬁcit is considered. For the sub-group of these nine studies the eﬃcacy of ﬁscal rules at the state level is strongly reduced
+and even found to be deﬁcit increasing compared to the national level.
+17
+
+For evidence for political budget cycles see Rose (2006) and Foremny et al. (2014).
+
+82
+
+European Journal of Political Economy 51 (2018) 69–92
+
+F. Heinemann et al.
+
+While not very robust, results for control variables such as ideology are conﬁrmed. However, in case of variables such as
+supranational rules, signs of obtained coeﬃcients switch. The same holds true for eﬀects with respect to country coverage and time
+coverage. For instance, in Euro member states, ﬁscal rules are found to be associated with increased deﬁcits. Results with respect to
+the time coverage are again not clear cut. While studies using data for the 1960s and 2010s are associated with stronger constraining
+eﬀects, this is not the case for the 1970s. Results with respect to a potential publication bias are also conﬁrmed by the analysis for the
+eﬀect size. Observations obtained from journal publications are associated with a larger constraining eﬀect from ﬁscal rules
+compared to observation from working papers. The diﬀerence amounts up to 2.5 percentage points of GDP. This eﬀect is increasing
+with the reputation of the journal measured by its impact factor.
+6. Conclusions
+The empirical literature on the budgetary implications of numerical ﬁscal rules has been growing quickly over the recent years
+and has reached a critical mass rendering MRA feasible and appropriate to summarise the overall evidence. Our paper is the ﬁrst
+MRA in this particular ﬁeld of literature which explores and summarises existing empirical evidence from 30 studies from the last
+decade in a systematic way. In this regard, we provide a consensus estimate with respect to the sign as well as statistical signiﬁcance
+with which ﬁscal rules inﬂuence ﬁscal aggregates. Furthermore, for a small homogeneous sub-group of studies, we also provide a
+consensus estimate with respect to the size of eﬀects. However, our MRA contributes to this ﬁeld of literature beyond a simple
+stocktaking. First, it provides guidance to the crucial discussion with respect to the identiﬁcation of causal eﬀects within this ﬁeld of
+literature. It puts special emphasis on the impact resulting from the use of diﬀerent types of identiﬁcation strategies. Second, our
+analysis provides insights with respect to the role of included control variables. For researchers in the ﬁeld of public ﬁnance and
+political-economics this may guide the determination of an appropriate speciﬁcation for future analyses of the budgetary impact of
+ﬁscal rules.
+Our MRA points to a statistically signiﬁcant and constraining impact of ﬁscal rules on ﬁscal aggregates at the national level.
+Obtained results indicate a level of signiﬁcance around the 10% threshold. These results hold particularly strong for deﬁcits but less
+so for debt, expenditures or revenues. Relative to the baseline of deﬁcit rules, alternative types of ﬁscal rules do not exert a
+diﬀerential impact. Concerning the eﬀect size, albeit only measurable for a small subset of studies, the results show that deﬁcit rules
+on average reduce the primary deﬁcit between −1.5 and −1.2 percent of GDP.
+With respect to the identiﬁcation of causal eﬀects, our analysis provides supportive evidence that ﬁscal rules must not be treated
+as exogenous. Our results show that coeﬃcients tend to lose their statistical signiﬁcance with increasing reﬁnement of applied
+identiﬁcation strategies. While the inclusion of jurisdiction ﬁxed eﬀects as a rough measure for ﬁscal preferences does not make a
+systematic diﬀerence, the employment of instrumental variables or quasi-experimental designs lead to markedly lower levels of
+signiﬁcance and a less constraining impact. In light of these insights, our results emphasise the necessity for using appropriate
+identiﬁcation strategies in future research in order to advance our knowledge on the causal impact of numerical ﬁscal rules.
+A further insight emerges from our meta-regressions-analysis with respect to minimum standards for future studies and
+necessary controls. Our results indicate that controlling for government stability, political budget cycles, demographic characteristics
+as well as the presence of a supranational rule is relevant for the measured impact of ﬁscal rules. Consequently, the set of control
+variables should involve proxies for these dimensions whenever possible. With respect to diﬀerences across federal levels, our results
+indicate that constraining eﬀects of ﬁscal rules are the strongest for studies using municipal data.
+Our MRA also provides evidence for a publication bias. Results obtained from working papers are on average associated with
+lower levels of statistical signiﬁcance compared to those from journal articles. Against this background, it must be emphasised that
+our MRA can only substantiate one of the two main mechanisms leading to publication bias. The channel is given by the inclination
+of reviewers and journal editors to favour papers with statistically signiﬁcant results. The comparison between working papers and
+journal articles is, however, not informative on the inclination of authors to keep statistically insigniﬁcant ﬁndings in the ﬁle drawer
+so that these results do not even reach the stage of the working paper. Bearing this in mind, our evidence for an upward publication
+bias in published journal articles is of a conservative nature.
+Summarising, the existing empirical evidence points to constraining eﬀects of rules on ﬁscal aggregates. However, results have to
+be interpreted carefully as on the one hand our analysis points to a bias if the potential endogeneity is not taken explicitly into
+account and on the other hand provides evidence for the presence of a publication bias. Both insights strongly weaken the seemingly
+optimistic message in the existing empirical literature with respect to the eﬀectiveness of ﬁscal rules. Against this background, it will
+be crucial to develop and implement new convincing identiﬁcation strategies in order to provide robust and causally interpretable
+empirical evidence in this ﬁeld of literature. For political-economic scholars searching for eﬀective debt-constraining institutions
+these ﬁndings imply that the perspective should also widen towards alternatives such as e.g., independent ﬁscal boards or the role of
+disciplining incentives from bond markets.
+Acknowledgements
+We would like to thank Toke Aidt, Zareh Asatryan, Thushyanthan Baskaran, Johannes Becker, Julia Braun, Dirk Foremny, Jost
+Heckemeyer, Wolf Heinrich Reuter, Robert Schwager, Albert Sollé-Ollé, Thomas Stratmann, Johannes Voget and seminar
+participants at the IIPF, the EPCS, the Verein für Socialpolitik and the ZEW Public Finance Conference for helpful comments
+and suggestions. We would also like to thank Patrick Blank for his excellent research assistance.
+
+83
+
+European Journal of Political Economy 51 (2018) 69–92
+
+F. Heinemann et al.
+
+Appendix A. Appendix
+
+debt
+
+secondary deficit
+
+primary deficit
+
+secondary expenditure
+
+primary expenditure
+
+revenue
+-40
+
+-30
+
+-20
+
+-10
+t-value
+
+0
+
+10
+
+Fig. A.1. Boxplot for the classiﬁcation of the dependent variable based on the full sample without trimming.
+Notes: Data of the full sample without trimming of the top and bottom 1% percentiles and without analytical weights.
+
+Table A.1
+Overview of tables considered in the meta-regression-analysis.
+#
+
+Authors and Year
+
+Keyword
+
+Published
+
+Journal/Series
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+
+Afonso and Hauptmeier, 2009
+Argimón, and Hernández de Cos, 2012
+Bartolini and Santolini, 2009
+Benito et al., 2013
+Brooks et al., 2012
+Cevik and Teksoz, 2014
+Christofzik and Kessing, 2014
+Coutinho et al., 2013
+Dahan and Strawczynski, 2013
+Debrun and Kumar, 2007
+Debrun et al., 2008
+Ebeke and Ölçer, 2013
+Escolano et al., 2012
+Foremny, 2014
+Gollwitzer, 2010
+Grembi et al., 2012
+Hallerberg et al., 2007
+Hedbávný et al., 2007
+Krogstrup and Wälti, 2008
+Luechinger and Schaltegger, 2013
+Marneﬀe et al., 2010
+Miyazaki, 2014
+Nerlich and Reuter, 2013
+Neyapti, 2013
+Primo, 2006
+Rose, 2006
+Schaltegger and Feld, 2009
+Tapp, 2013
+Tapsoba, 2012
+Thornton, 2009
+
+Fiscal rule
+Fiscal rule
+Fiscal rule
+Fiscal rule
+Fiscal restraint
+Fiscal rule
+Fiscal rule
+Fiscal rule
+Fiscal rule
+Fiscal rule
+Fiscal rule
+Fiscal rule
+Fiscal rule
+Fiscal rule
+Budget rule
+Fiscal rule
+Fiscal rule
+Fiscal rule
+Fiscal rule
+Fiscal rule
+Fiscal rule
+Fiscal rule
+Fiscal rule
+Fiscal rule
+Budget rule
+Fiscal rule
+Fiscal rule
+Fiscal rule
+Fiscal rule
+Fiscal rule
+
+No
+Yes
+No
+Yes
+No
+No
+No
+No
+Yes
+No
+Yes
+No
+No
+Yes
+Yes
+No
+Yes
+Yes
+Yes
+Yes
+No
+Yes
+No
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+
+ECB Working Paper Series
+Public Finance Review
+CESifo Working Paper Series
+Kyklos
+Finance and Economics Discussion Series
+IMF Working Paper
+CESifo Working Paper Series
+CEPR Discussion Paper Series
+Journal of Policy Analysis and Management
+IMF Working Paper Series
+Economic Policy
+IMF Working Paper Series
+IMF Working Paper Series
+European Journal of Political Economy
+Journal of African Economies
+CESifo Working Paper Series
+European Journal of Political Economy
+Czech Economic Review
+Public Choice
+International Tax and Public Finance
+CESifo Working Paper Series
+International Review of Economics and Finance
+ECB Working Paper Series
+Economics Letters
+Economics & Politics
+Public Choice
+Journal of Public Economics
+Canadian Public Policy
+Economic Modelling
+Applied Economics Letters
+
+Notes: Result of the search on EconLit based on the six keywords: ﬁscal rule, ﬁscal restraint, debt brake, debt rule, budget rule, and deﬁcit rule. If an individual paper
+has been found using several keyword, we mention the ﬁrst with a positive search result.
+
+84
+
+European Journal of Political Economy 51 (2018) 69–92
+
+F. Heinemann et al.
+
+Table A.2
+Variable description.
+Variable
+
+Description
+Dummy=1 if the primary study's
+
+Classiﬁcation of dependent variable
+Debt
+Dependent
+Secondary deﬁcit
+Dependent
+Primary deﬁcit
+Dependent
+Secondary expenditure
+Dependent
+Primary expenditure
+Dependent
+Revenue
+Dependent
+
+variable
+variable
+variable
+variable
+variable
+variable
+
+is
+is
+is
+is
+is
+is
+
+Type of ﬁscal rule
+Deﬁcit rule
+Debt rule
+Expenditure rule
+Revenue rule
+
+indicator
+indicator
+indicator
+indicator
+
+comprises
+comprises
+comprises
+comprises
+
+Country coverage
+Switzerland
+USA
+European Union
+Euro area
+OECD
+Other country
+Administrative level
+National
+State
+Municipality
+Control variables
+Ideology
+Government stability
+Election year
+Debt
+Preferences and culture
+Dependency ratio
+Output gap
+Growth
+Openness
+Budgetary rules
+Supranational rule
+
+Fiscal
+Fiscal
+Fiscal
+Fiscal
+
+rule
+rule
+rule
+rule
+
+debt.
+secondary deficit.
+primary deficit.
+secondary expenditure, including subcategories of spending, e.g., expenditure for interest payments.
+primary expenditure.
+revenue, inlcuding subcategories, e.g., tax revenue or social security contributions.
+
+a deficit rule.
+a debt rule.
+an expenditure rule.
+a revenue rule.
+
+Country coverage comprises Switzerland.
+Country coverage comprises the USA.
+Country coverage comprises states that belong to the European Union. The dummy is only equal to one if the full set of countries
+belongs to the European Union.
+Country coverage comprises states that belong to the Euro area. The dummy is only equal to one if the full set of countries
+belongs to the Euro area.
+Country coverage comprises states that belong to the OECD. The dummy is only equal to one if the full set of countries belongs to
+the OECD.
+Country coverage does not include Switzerland, the USA, European Union contries, Euro area countries, or OECD countries.
+
+Administrative level is the national level.
+Administrative level is the state level.
+Administrative level is the municipal level.
+
+Control variables
+Control variables
+Control variables
+Control variables
+Control variables
+dummies.
+Control variables
+Control variables
+Control variables
+Control variables
+Control variables
+Control variables
+
+comprise
+comprise
+comprise
+comprise
+comprise
+
+government ideology indicators.
+government stability indicators, e.g., tenure of the government or specific index values.
+variables indicating election years.
+debt.
+preferences and cultural proxies, e.g., language dummies, regional dummies, or fiscal preferences
+
+comprise
+comprise
+comprise
+comprise
+comprise
+comprise
+
+dependency ratio indicators, e.g., share of working population in total population.
+the output gap.
+GDP growth indicators.
+openness indicators, e.g., sum of exports and imports to GDP.
+indicators for budgetary rules, e.g., delegation vs. contract approach.
+an indicator for a supranational fiscal rule, e.g., the Stability and Growth Pact.
+
+Publication bias
+Refereed journal
+Working paper
+
+Observations are published in a refereed journal.
+Observations are published in a working paper.
+
+Econometric speciﬁcation
+Dynamic speciﬁcation
+Time ﬁxed eﬀects
+Plain S.E.
+Robust S.E.
+Clustered S.E.
+Bootstrapped S.E.
+
+Econometric
+Econometric
+Econometric
+Econometric
+Econometric
+Econometric
+
+Identiﬁcation
+Jurisd. ﬁxed eﬀects
+Preferences and culture
+2SLS (IV)
+Quasi-experimental
+
+specification
+specification
+specification
+specification
+specification
+specification
+
+includes
+includes
+includes
+includes
+includes
+includes
+
+the lagged dependent variable.
+time fixed effects.
+plain standard errors.
+robust standard errors.
+clustered standard errors.
+bootstrapped standard errors.
+
+Econometric specification includes jurisdiction fixed effects, e.g., country fixed effects.
+Control variables comprise preferences and cultural proxies, e.g., language dummies, regional dummies, or fiscal preferences
+dummies.
+Estimation method is an instrumental variables approach (2SLS) with the fiscal rule indicator as the instrumented variable.
+Estimation method relies on quasi-experimental methods, e.g., matching.
+
+85
+
+European Journal of Political Economy 51 (2018) 69–92
+
+F. Heinemann et al.
+
+Table A.3
+Meta-Regression-Analysis: Results using study fixed effects.
+
+Baseline eﬀect
+
+(1)
+Main specification
+
+(2)
+Identification 1
+
+(3)
+Identification 2
+
+(4)
+Identification 3
+
+−4.222
+[-5.06]***
+
+−4.060
+[-5.31]***
+
+−3.813
+[-5.13]***
+
+−3.794
+[-5.01]***
+
+0.444
+[0.94]
+1.612
+[5.24]***
+0.936
+[1.94]*
+1.569
+[3.08]***
+2.295
+[4.54]***
+
+0.444
+[0.94]
+1.611
+[5.21]***
+0.944
+[1.98]*
+1.570
+[3.09]***
+2.297
+[4.54]***
+
+0.429
+[0.90]
+1.579
+[5.10]***
+0.927
+[1.91]*
+1.560
+[3.05]***
+2.289
+[4.50]***
+
+−0.481
+[−1.86]*
+−0.273
+[−0.57]
+0.958
+[1.58]
+
+−0.519
+[−1.97]*
+−0.271
+[−0.57]
+0.985
+[1.65]
+
+−0.522
+[−1.98]*
+−0.268
+[−0.57]
+0.992
+[1.66]
+
+−0.524
+[−1.98]*
+−0.261
+[−0.55]
+1.001
+[1.67]
+
+−0.124
+[−1.63]
+−2.381
+[-4.16]***
+3.174
+[3.51]***
+0.121
+[0.70]
+−0.836
+[-8.61]***
+3.888
+[26.88]***
+−0.047
+[−0.23]
+
+−0.128
+[−1.28]
+−2.398
+[-4.33]***
+3.346
+[4.02]***
+0.132
+[0.80]
+−0.859
+[-9.37]***
+4.035
+[40.41]***
+−0.257
+[−1.80]*
+
+−0.131
+[−1.11]
+−2.456
+[-4.55]***
+3.404
+[4.07]***
+0.131
+[0.80]
+−0.867
+[-9.43]***
+4.043
+[36.93]***
+−0.267
+[−1.71]*
+
+−0.088
+[−1.00]
+−2.531
+[-4.45]***
+3.198
+[3.52]***
+0.118
+[0.68]
+−0.866
+[-9.43]***
+4.007
+[41.58]***
+−0.216
+[−1.57]
+
+1.465
+[1.88]*
+−0.982
+[−1.57]
+−0.037
+[−0.08]
+−0.081
+[−0.27]
+−0.072
+[−0.20]
+
+1.473
+[1.89]*
+−0.978
+[−1.58]
+0.406
+[1.69]
+−0.070
+[−0.23]
+0.076
+[0.22]
+
+1.476
+[1.89]*
+−0.899
+[−1.36]
+0.400
+[1.81]*
+−0.144
+[−0.48]
+0.093
+[0.26]
+
+Classiﬁcation of dependent variable, Baseline: Primary deﬁcit
+Secondary deﬁcit
+0.407
+[0.85]
+Debt
+1.530
+[5.19]***
+Primary expenditure
+0.834
+[1.72]*
+Secondary expenditure
+1.531
+[2.97]***
+Revenue
+2.262
+[4.45]***
+Type of ﬁscal rule, Baseline: Deﬁcit rule
+Debt rule
+Expenditure rule
+Revenue rule
+
+Control variables
+Ideology
+Government stability
+Election years
+Debt level
+Openness
+Dependency ratio
+Supranational rule
+
+Econometric speciﬁcation, Baseline: Robust S.E.
+Interaction
+1.469
+[1.88]*
+Dynamic speciﬁcation
+−0.898
+[−1.37]
+Time ﬁxed eﬀects
+0.097
+[0.41]
+Plain S.E.
+−0.209
+[−0.70]
+Bootstrapped S.E.
+−0.094
+[−0.25]
+Identiﬁcation
+Jurisdiction ﬁxed eﬀects
+(A)
+Preferences and culture
+(B)
+2SLS IV
+(C)
+Identiﬁcation dummy 1
+(A) + (B) + (C) + (D)
+Identiﬁcation dummy 2
+
+0.827
+[1.47]
+−0.022
+[−0.11]
+0.572
+[1.02]
+0.584
+[1.47]
+0.014
+(continued on next page)
+
+86
+
+European Journal of Political Economy 51 (2018) 69–92
+
+F. Heinemann et al.
+
+Table A.3 (continued)
+(1)
+Main specification
+
+(2)
+Identification 1
+
+(B) + (C) + (D)
+Identiﬁcation dummy 3
+(C) + (D)
+N
+
+R2
+
+(3)
+Identification 2
+
+(4)
+Identification 3
+
+[0.05]
+
+1033
+0.152
+
+1033
+0.146
+
+0.588
+[1.05]
+1033
+0.146
+
+1033
+0.143
+
+Notes: Clustered t-statistics in brackets. All speciﬁcations estimated using study ﬁxed eﬀects. Alterations in the estimation speciﬁcation are driven by the lack of
+within-variation in the respective variables. Data is trimmed excluding the top and bottom 1% percentiles. Analytical weights equalising the weight for every study are
+included.
+**
+p < 0.05.
+*
+p < 0.10 .
+***
+p < 0.01.
+
+Table A.4
+Meta-Regression-Analysis: Results using ordered probit.
+(1)
+Main specification
+
+(2)
+Identification 1
+
+(3)
+Identification 2
+
+(4)
+Identification 3
+
+(5)
+Identification 4
+
+Classiﬁcation of dependent variable, Baseline: Primary deﬁcit
+Secondary deﬁcit
+−0.243
+[−1.08]
+Debt
+0.952
+[2.94]***
+Primary expenditure
+0.806
+[1.96]*
+Secondary expenditure
+0.848
+[3.79]***
+Revenue
+1.513
+[4.85]***
+
+−0.216
+[−0.95]
+0.896
+[2.89]***
+0.770
+[1.91]*
+0.901
+[3.97]***
+1.521
+[5.07]***
+
+−0.260
+[−1.09]
+1.005
+[3.15]***
+0.829
+[1.92]*
+0.869
+[4.00]***
+1.547
+[4.75]***
+
+−0.274
+[−1.13]
+0.897
+[2.74]***
+0.770
+[1.97]**
+0.874
+[4.01]***
+1.541
+[4.70]***
+
+−0.199
+[−0.83]
+0.934
+[2.81]***
+0.766
+[1.99]**
+0.938
+[4.14]***
+1.540
+[4.72]***
+
+Type of ﬁscal rule, Baseline: Deﬁcit rule
+Debt rule
+0.354
+[1.28]
+Expenditure rule
+0.355
+[1.34]
+Revenue rule
+−0.485
+[−1.54]
+
+0.490
+[1.84]*
+0.264
+[1.01]
+−0.692
+[-2.02]**
+
+0.370
+[1.36]
+0.325
+[1.22]
+−0.550
+[−1.66]*
+
+0.389
+[1.54]
+0.368
+[1.39]
+−0.525
+[−1.68]*
+
+0.417
+[1.61]
+0.412
+[1.44]
+−0.550
+[−1.73]*
+
+Administrative level, Baseline: National
+State
+0.566
+[1.25]
+Municipal
+−0.984
+[−1.93]*
+
+0.546
+[1.25]
+−0.659
+[−1.65]*
+
+0.544
+[1.20]
+−0.966
+[-2.55]**
+
+0.540
+[1.21]
+−1.023
+[-2.68]***
+
+0.522
+[1.15]
+−1.092
+[-2.43]**
+
+−0.483
+[-2.10]**
+−0.326
+[−1.43]
+0.108
+[0.47]
+0.078
+[0.24]
+0.486
+[1.57]
+0.322
+[0.63]
+−0.603
+[-2.21]**
+
+−0.474
+[−1.96]**
+−0.459
+[-2.06]**
+0.143
+[0.61]
+−0.199
+[−0.61]
+0.638
+[2.14]**
+0.355
+[0.70]
+−0.559
+[-2.18]**
+
+−0.389
+[−1.57]
+−0.623
+[-2.39]**
+0.218
+[0.94]
+−0.180
+[−0.57]
+0.594
+[1.97]**
+0.259
+[0.54]
+−0.419
+[−1.75]*
+
+−0.345
+[−1.19]
+−0.549
+[−1.86]*
+0.202
+[0.88]
+−0.120
+[−0.38]
+0.618
+[1.97]**
+0.394
+[0.73]
+−0.501
+[-2.12]**
+
+0.520
+[2.14]**
+
+0.433
+[1.94]*
+
+0.339
+[1.56]
+
+0.362
+[1.70]*
+
+Control variables
+Ideology
+Government stability
+Election years
+Debt level
+Openness
+Dependency ratio
+Supranational rule
+
+−0.388
+[−1.39]
+−0.647
+[-2.33]**
+0.219
+[0.93]
+−0.122
+[−0.32]
+0.557
+[1.76]*
+0.474
+[0.83]
+−0.648
+[−1.84]*
+
+Publication bias, Baseline: Refereed journal
+Working paper
+0.423
+[1.79]*
+
+(continued on next page)
+
+87
+
+European Journal of Political Economy 51 (2018) 69–92
+
+F. Heinemann et al.
+
+Table A.4 (continued)
+(1)
+Main specification
+Econometric speciﬁcation, Baseline: Robust S.E.
+Interaction
+0.139
+[0.50]
+Dynamic speciﬁcation
+−0.142
+[−0.48]
+Time ﬁxed eﬀects
+−0.436
+[−1.13]
+Plain S.E.
+−0.086
+[−0.27]
+Clustered S.E.
+−0.632
+[-2.14]**
+Bootstrapped S.E.
+−1.019
+[−1.55]
+Identiﬁcation
+Jurisdiction ﬁxed eﬀects
+(A)
+Preferences and culture
+(B)
+2SLS IV
+(C)
+Quasi-experimental
+(D)
+Identiﬁcation dummy 1
+(A) + (B) + (C) + (D)
+Identiﬁcation dummy 2
+(B) + (C) + (D)
+Identiﬁcation dummy 3
+(C) + (D)
+Identiﬁcation dummy 4
+(D)
+Cut-oﬀs
+Cut 1
+Insigniﬁcant
+Cut 2
+Positive signiﬁcant
+N
+
+(2)
+Identification 1
+
+(3)
+Identification 2
+
+(4)
+Identification 3
+
+(5)
+Identification 4
+
+0.123
+[0.44]
+−0.168
+[−0.56]
+−0.235
+[−0.78]
+−0.232
+[−0.75]
+−0.640
+[-2.06]**
+−0.804
+[−1.55]
+
+0.127
+[0.45]
+−0.240
+[−0.85]
+−0.525
+[−1.63]
+−0.075
+[−0.24]
+−0.543
+[−1.87]*
+−0.877
+[−1.57]
+
+0.149
+[0.53]
+−0.263
+[−0.92]
+−0.486
+[−1.61]
+−0.138
+[−0.43]
+−0.621
+[-2.19]**
+−0.993
+[−1.78]*
+
+0.180
+[0.67]
+−0.266
+[−0.99]
+−0.447
+[−1.50]
+−0.072
+[−0.22]
+−0.586
+[-2.04]**
+−1.137
+[−1.64]
+
+−0.286
+[−0.73]
+0.118
+[0.64]
+0.542
+[1.50]
+0.495
+[0.91]
+−0.567
+[−1.13]
+0.298
+[1.51]
+0.599
+[2.01]**
+0.670
+[1.33]
+
+−0.359
+[−0.87]
+2.150
+[4.94]***
+1033
+
+−0.632
+[−1.26]
+1.858
+[3.65]***
+1033
+
+−0.282
+[−0.65]
+2.203
+[4.94]***
+1033
+
+−0.289
+[−0.66]
+2.203
+[4.95]***
+1033
+
+−0.165
+[−0.38]
+2.318
+[5.07]***
+1033
+
+Notes: Clustered t-statistics in brackets. All speciﬁcations estimated using ordered probit. Outcomes coded as −1 for negative signiﬁcant, 0 for insigniﬁcant and +1 for
+positive signiﬁcant. Data is trimmed excluding the top and bottom 1% percentiles. Analytical weights equalising the weight for every study are included.
+*
+p < 0.10 .
+**
+p < 0.05.
+***
+p < 0.01.
+
+Table A.5
+Meta-Regression-Analysis: Results using further study dimensions.
+
+Baseline eﬀect
+
+(1)
+Country coverage
+
+(2)
+Time coverage
+
+(3)
+Journal
+
+(4)
+Impact factor
+
+−1.271
+[−1.53]
+{−1.11}
+
+0.494
+[0.38]
+{0.27}
+
+−0.400
+[−0.59]
+{−0.48}
+
+−1.336
+[−1.55]
+{−1.12}
+
+0.142
+[0.32]
+{0.27}
+0.819
+[1.90]*
+{1.55}
+0.938
+[1.60]
+{1.07}
+
+0.103
+[0.24]
+{0.13}
+1.464
+[2.98]***
+{2.75}***
+1.301
+[2.31]**
+{1.41}
+
+−0.182
+[−0.40]
+{−0.37}
+1.126
+[2.19]**
+{1.76}*
+1.248
+[2.17]**
+{1.41}
+(continued on next page)
+
+Classiﬁcation of dependent variable, Baseline: Primary deﬁcit
+Secondary deﬁcit
+0.454
+[0.92]
+{0.67}
+Debt
+1.646
+[2.96]***
+{2.52}**
+Primary expenditure
+1.310
+[2.46]**
+{1.80}*
+
+88
+
+European Journal of Political Economy 51 (2018) 69–92
+
+F. Heinemann et al.
+
+Table A.5 (continued)
+
+Secondary expenditure
+
+Revenue
+
+Type of ﬁscal rule, Baseline: Deﬁcit rule
+Debt rule
+
+Expenditure rule
+
+Revenue rule
+
+(1)
+Country coverage
+
+(2)
+Time coverage
+
+(3)
+Journal
+
+(4)
+Impact factor
+
+1.989
+[2.87]***
+{1.88}*
+2.705
+[3.88]***
+{2.75}***
+
+1.417
+[3.35]***
+{2.41}**
+2.231
+[3.81]***
+{2.52}**
+
+1.536
+[3.70]***
+{2.88}***
+2.346
+[3.96]***
+{3.10}***
+
+1.687
+[3.73]***
+{3.10}***
+2.392
+[3.89]***
+{ 3.1e+19}***
+
+0.766
+[1.55]
+{1.09}
+0.247
+[0.36]
+{0.26}
+−0.167
+[−0.20]
+{−0.15}
+
+0.312
+[0.78]
+{0.66}
+−0.027
+[−0.04]
+{−0.00}
+−0.791
+[−0.94]
+{−0.54}
+
+0.189
+[0.63]
+{0.57}
+0.229
+[0.36]
+{0.24}
+−0.323
+[−0.45]
+{−0.21}
+
+0.462
+[1.27]
+{1.02}
+0.386
+[0.54]
+{0.37}
+−0.428
+[−0.50]
+{−0.22}
+
+0.996
+[1.43]
+{1.04}
+−3.029
+[-3.40]***
+{−1.93}*
+
+0.265
+[0.42]
+{0.35}
+−2.495
+[-2.37]**
+{−1.27}
+
+−1.299
+[-2.67]**
+{−1.52}
+0.155
+[0.27]
+{0.18}
+−0.140
+[−0.33]
+{−0.23}
+1.274
+[2.03]*
+{1.30}
+0.845
+[1.13]
+{0.83}
+2.102
+[2.78]***
+{2.12}**
+−1.365
+[-2.62]**
+{−1.73}*
+
+−0.638
+[−1.41]
+{−1.03}
+−0.011
+[−0.02]
+{−0.08}
+−0.029
+[−0.08]
+{−0.07}
+−0.615
+[−1.13]
+{−0.67}
+0.615
+[1.25]
+{1.04}
+1.558
+[2.07]**
+{1.58}
+−0.960
+[-2.33]**
+{−1.98}**
+
+−0.350
+[−0.75]
+{−0.51}
+−0.489
+[−1.05]
+{−0.85}
+0.058
+[0.15]
+{0.15}
+−0.079
+[−0.16]
+{−0.02}
+0.516
+[1.01]
+{0.81}
+1.525
+[1.86]*
+{1.36}
+−1.229
+[-2.84]***
+{-2.37}**
+
+−0.095
+[−0.18]
+{−0.12}
+−0.238
+[−0.52]
+{−0.36}
+−0.304
+[−0.53]
+{−0.33}
+−0.941
+[−1.43]
+{−0.97}
+−1.887
+[-3.33]***
+{- 2.66}***
+−2.253
+[-2.28]**
+{−1.62}
+
+0.284
+[0.57]
+{0.47}
+−0.001
+[−0.00]
+{−0.02}
+−1.565
+[-2.62]**
+{−1.60}
+0.084
+[0.16]
+{0.11}
+−0.144
+[−0.32]
+{−0.22}
+−2.252
+[-2.17]**
+{−1.44}
+
+Administrative level, Baseline: National
+State
+
+Municipal
+
+Control variables
+Ideology
+
+Government stability
+
+Election years
+
+Debt level
+
+Openness
+
+Dependency ratio
+
+Supranational rule
+
+−0.388
+[−0.73]
+{−0.44}
+−0.827
+[−1.01]
+{−0.78}
+−0.225
+[−0.39]
+{−0.21}
+0.626
+[1.07]
+{0.88}
+−0.433
+[−0.60]
+{−0.50}
+0.508
+[0.48]
+{0.39}
+−1.350
+[-2.32]**
+{-2.00}**
+
+Econometric speciﬁcation, Baseline: Robust S.E.
+Interaction
+−0.060
+[−0.11]
+{−0.10}
+Dynamic speciﬁcation
+−0.167
+[−0.36]
+{−0.25}
+Time ﬁxed eﬀects
+−0.340
+[−0.64]
+{−0.46}
+Plain S.E.
+−1.026
+[−1.49]
+{−1.01}
+Clustered S.E.
+−1.161
+[−1.82]*
+{−1.37}
+Bootstrapped S.E.
+−0.662
+[−0.49]
+{−0.34}
+
+89
+
+0.215
+[0.43]
+{0.36}
+0.180
+[0.38]
+{0.22}
+−0.969
+[−1.90]*
+{−1.30}
+−0.144
+[−0.24]
+{−0.15}
+−0.192
+[−0.49]
+{−0.38}
+−2.419
+[-2.31]**
+{−1.58}
+(continued on next page)
+
+European Journal of Political Economy 51 (2018) 69–92
+
+F. Heinemann et al.
+
+Table A.5 (continued)
+
+Identiﬁcation
+Jurisdiction ﬁxed eﬀects
+
+Preferences and culture
+
+2SLS IV
+
+Quasi-experimental
+
+Country coverage, Baseline: EU countries
+Switzerland
+
+USA
+
+Euro Members
+
+OECD Members
+
+Other countries
+
+(1)
+Country coverage
+
+(2)
+Time coverage
+
+(3)
+Journal
+
+(4)
+Impact factor
+
+−0.674
+[−1.36]
+{−0.99}
+0.234
+[1.02]
+{0.93}
+0.826
+[1.87]*
+{1.56}
+−0.027
+[−0.03]
+{−0.05}
+
+−0.156
+[−0.22]
+{−0.23}
+0.113
+[0.43]
+{0.34}
+0.581
+[1.39]
+{1.16}
+−0.204
+[−0.26]
+{−0.21}
+
+−0.109
+[−0.24]
+{−0.22}
+0.678
+[1.86]*
+{1.45}
+0.730
+[1.59]
+{1.30}
+1.472
+[1.75]*
+{1.39}
+
+−0.282
+[−0.54]
+{−0.46}
+0.518
+[1.41]
+{1.16}
+0.771
+[1.64]
+{1.29}
+1.652
+[1.69]
+{1.25}
+
+−1.195
+[−1.72]*
+{−1.20}
+−1.180
+[−0.95]
+{−0.59}
+−0.936
+[−1.15]
+{−0.68}
+0.277
+[0.55]
+{0.46}
+0.024
+[0.03]
+{0.04}
+
+Time coverage
+1950s
+
+−3.146
+[-2.02]*
+{−1.45}
+2.424
+[1.97]*
+{1.18}
+−2.412
+[-3.12]***
+{−1.55}
+1.628
+[2.17]**
+{1.34}
+−0.761
+[−0.91]
+{−0.64}
+−1.506
+[−1.61]
+{−0.81}
+−0.846
+[−1.22]
+{−0.78}
+
+1960s
+
+1970s
+
+1980s
+
+1990s
+
+2000s
+
+2010s
+
+Publication bias, Baseline in columns: (1-2) Refereed journal; (3-4) Working paper
+Working paper
+0.547
+1.173
+[0.78]
+[1.92]*
+{0.45}
+{0.82}
+Journal
+
+−1.474
+[-3.22]***
+{−1.95}*
+−0.480
+[−1.23]
+(continued on next page)
+
+Impact factor
+
+90
+
+European Journal of Political Economy 51 (2018) 69–92
+
+F. Heinemann et al.
+
+Table A.5 (continued)
+(1)
+Country coverage
+
+(2)
+Time coverage
+
+(3)
+Journal
+
+(4)
+Impact factor
+{−0.74}
+
+N
+
+R2
+
+1033
+0.302
+
+1033
+0.348
+
+1033
+0.365
+
+1029
+0.343
+
+Notes: Clustered t-statistics in brackets, wild-cluster-bootstrapped t-statistics in braces. Reduced sample size in column (4) is due to lacking information on impact
+factors. All speciﬁcations estimated using weighted least squares. Data is trimmed excluding the top and bottom 1% percentiles. Analytical weights equalising the
+weight for every study are included.
+*
+p < 0.10 .
+**
+p < 0.05.
+***
+p < 0.01.
+
+References
+Abrams, B., Dougan, W., 1986. The eﬀects of constitutional restraints on governmental spending. Public Choice 49 (2), 101–116.
+Afonso, A., Hauptmeier, S., 2009. Fiscal behaviour in the European Union: rules, ﬁscal decentralization and government indebtedness. ECB Working Paper No. 1054,
+May 2009.
+Angrist, J.D., Pischke, J., 2009. Mostly harmless econometrics. Princeton University Press, Princeton and Oxford.
+Argimón, I., Hernández de Cos, P., 2012. Fiscal rules and federalism as determinants of budget performance: an empirical investigation for the Spanish case. Public
+Financ. Rev. 40 (1), 30–65.
+Bails, D., 1982. A critique on the eﬀectiveness of tax-expenditure limitations. Public Choice 38 (2), 129–138.
+Bartolini, D., Santolini, R., 2009. Fiscal rules and the opportunistic behaviour of the incumbent politician: evidence from Italian municipalities. CESifo Working Paper
+No. 2605, April 2009.
+Baskaran, T., Feld L.P., Schnellenbach, J., 2014. Fiscal federalism, decentralization and economic growth: Survey and meta-analysis. CESifo Working Paper No., 4985
+(September).
+Benito, B., Bastida, F., Vicente, C., 2013. Creating room for manoeuvre: a strategy to generate political budget cycles under ﬁscal rules. Kyklos 66 (4), 467–496.
+Brooks, L., Halberstam, Y., Phillips, J., 2012. Spending within limits: Evidence from municipal ﬁscal restraints. Finance and Economics Discussion Series, Federal
+Reserve Board, 2012-52 (April).
+Burret, H.T., Feld, L.P., 2014. Political institutions and ﬁscal policies: A note on budget rules and ﬁscal federalism. CESifo DICE Report, 1/2014 (March).
+Cameron, A.C., Gelbach, J.B., Miller, D.L., 2008. Bootstrap-based improvements for inference with clustered errors. Rev. Econ. Stat. 90 (3), 414–427.
+Cameron, A.C., Miller, D.L., 2015. A practitioner's guide to cluster-robust inference. J. Human. Resour. 50 (2), 1–53.
+Cameron, A.C. and Trivedi P.K., 2010. Microeconometrics using Stata. College Station, Texas: Stata Press.
+Card, D., Kluve, J., Weber, A., 2010. Active labour market policy evaluations: a meta-analysis. Econ. J. 120 (548), F452–F477.
+Cevik, S., Teksoz, K. 2014. Deep roots of ﬁscal behaviour. IMF Working Paper, 14–45 (March).
+Christofzik, D.I., Kessing S.G. 2014. Does ﬁscal oversight matter? CESifo Working Paper No., 5023 (October).
+Coutinho, L., Georgiou, D. Heracleous, M. Michaelides, A., Tsani S., 2013. Limiting ﬁscal procyclicality: Evidence from resource-rich countries. CEPR Discussion
+Paper No. 9672 (October).
+Dahan, M., Strawczynski, M., 2013. Fiscal rules and the composition of government expenditures in OECD countries. J. Policy Anal. Manag. 32 (3), 484–504.
+Debrun, X., Kumar M.S. 2007. The discipline-enhancing role of ﬁscal institutions: Theory and empirical evidence. IMF Working Paper, 07-171 (July).
+Debrun, X., Moulin, L., Turrini, A., Ayuso-i Casals, J., Kumar, M.S., 2008. Tied to the mast? National ﬁscal rules in the European Union. Econ. Policy 23 (4),
+297–362.
+Ebeke, C., Ölçer, D., 2013. Fiscal policy over the election cycle in low-income countries. IMF Working Paper, 13-153 (June).
+Escolano, J., Eyraud, L. Badia, M.M. Sarnes, J., Tuladhar, A., 2012. Fiscal performance, institutional design and decentralization in European Union countries. IMF
+Working Paper, 12–45 (February).
+Foremny, D., 2014. Sub-national deﬁcits in European countries: the impact of ﬁscal rules and tax autonomy. Eur. J. Political Econ. 34, 86–110.
+Foremny, D., Freier, R., Moessinger, M.-D., Yeter M., 2014. Overlapping political budget cycles. ZEW Discussion Paper No., 14-099 (December).
+Franco, A., Malhotra, N., Simonovits, G., 2014. Publication bias in the social sciences: unlocking the ﬁle drawer. Science 345 (6203), 1502–1505.
+Gerber, A.S., Malhotra, N., 2008. Publication bias in empirical sociological research: do arbitrary signiﬁcance levels distort published results. Sociol. Methods Res. 37
+(1), 3–30.
+Gollwitzer, S., 2010. Budget institutions and ﬁscal performance in Africa. J. Afr. Econ. 20 (1), 111–152.
+Greene, W.H., 2003. Econometric analysis. Prentice Hall, Upper Saddle River.
+Grembi, V., Nannicini, T., Troiano U., 2012. Policy responses to ﬁscal restraints: A diﬀerence-in-discontinuities design. CESifo Working Paper No., 3999 (November).
+Hallerberg, M., Strauch, R., von Hagen, J., 2007. The design of ﬁscal rules and forms of governance in European Union countries. Eur. J. Political Econ. 23, 338–359.
+Harbord, R.M., Higgins, J.P.T., 2008. Meta-regression in Stata. Stata J. 8 (4), 493–519.
+Hedbávný, P., Schneider, O., Zápal, J., 2007. A ﬁscal rule that has teeth: a suggestion for a ‘ﬁscal sustainability council’ underpinned by the ﬁnancial markets. Czech
+Econ. Rev. 1 (1), 32–53.
+Heinemann, F., Osterloh, S., Kalb, A., 2014. Sovereign risk premia: the link between ﬁscal rules and stability culture. J. Int. Money Financ. and 41, 110–127.
+Imbeau, L.M., 2004. Public deﬁcits and surpluses in federated states: a review of the public choice empirical literature. J. Public Financ. Public Choice 22 (3),
+123–145.
+Kirchgässner, G., 2002. The eﬀects of ﬁscal institutions on public ﬁnance: A survey of the empirical evidence. In: Winer, S.L., Shibata, H., (Eds.), Political Economy
+and Public Finance: The Role of Political Economy in Theory and Practice of Public Economics, pp. 145–177.
+Klomp, J., de Haan, J., 2010. Inﬂation and central bank independence: a meta-regression analysis. J. Econ. Surv. 24 (4), 593–621.
+Kopits, G., Symansky, S., 1998. Fiscal policy rules. IMF Occasional Paper, 162.
+Krogstrup, S., Wälti, S., 2008. Do ﬁscal rules cause budgetary outcomes? Public Choice 136 (1–2), 123–138.
+Luechinger, S., Schaltegger, C.A., 2013. Fiscal rules, budget deﬁcits and budget projections. Int. Tax. Public Financ. 20 (5), 785–807.
+Marneﬀe, W., van Aarle, B., van der Wielen, W., Vereeck, L., 2010. The impact of ﬁscal rules on public ﬁnances: Theory and empirical evidence for the euro area.
+CESifo Working Paper No., 3303 (December).
+Miyazaki, T., 2014. Fiscal reform and ﬁscal sustainability: evidence from Australia and Sweden. Int. Rev. Econ. Financ. 33, 141–151.
+Nelson, J.P., Kenedy, P.E., 2009. The use (and abuse) of meta-analysis in environmental and natural resource economics: an assessment. Environ. Resour. Econ. 42
+(3), 345–377.
+
+91
+
+European Journal of Political Economy 51 (2018) 69–92
+
+F. Heinemann et al.
+
+Nerlich, C., Reuter W.H. 2013. The design of national ﬁscal frameworks and their budgetary impact. ECB Working Paper No., 1588 (September).
+Neyapti, B., 2013. Fiscal decentralization, ﬁscal rules and ﬁscal discipline. Econ. Lett. 121, 528–532.
+Poterba, J.M., 1996. Budget institutions and ﬁscal policy in the U.S. states. Am. Econ. Rev. 86 (2), 395–400.
+Primo, D.M., 2006. Stop us before we spend again: institutional constraints on government spending. Econ. Polit. 18 (3), 269–312.
+Rose, S., 2006. Do ﬁscal rules dampen the political business cycle? Public Choice 128 (3–4), 407–431.
+Schaltegger, C.A., Feld, L.P., 2009. Do large cabinets favor large governments? Evidence on the ﬁscal commons problem for Swiss cantons. J. Public Econ. 93, 35–47.
+Shadbegian, R.J., 1996. Do tax and expenditure limitations aﬀect the size and growth of state government? Contemp. Econ. Policy 14 (1), 22–35.
+Stanley, T., Doucouliagos, H., Giles, M., Heckemeyer, J.H., Johnston, R.J., Laroche, P., Nelson, J.P., Paldam, M., Poot, J., Pugh, G., 2013. Meta-analysis of economics
+research reporting guidelines. J. Econ. Surv. 27 (2), 390–394.
+Stanley, T.D., Doucouliagos, H., 2012. Meta-regression analysis in economics and business. Routledge Advances in Research Methods. Routledge, London.
+Tapp, S., 2013. The use and eﬀectiveness of ﬁscal rules in Canadian provinces. Can. Policy 39 (1), 45–70.
+Tapsoba, R., 2012. Do national numerical ﬁscal rules really shape ﬁscal behaviours in developing countries? A treatment eﬀect evaluation. Econ. Model. 29,
+1356–1369.
+Thornton, J., 2009. On the relation between central and sub-national government ﬁscal balances. Appl. Econ. Lett. 16 (6), 603–608.
+von Hagen, J., 2002. Fiscal rules, ﬁscal institutions, and ﬁscal performance. Econ. Social. Rev. 33 (3), 263–284.
+
+92
+
+

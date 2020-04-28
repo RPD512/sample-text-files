@@ -1,0 +1,445 @@
+Economics Letters 111 (2011) 191–193
+
+Contents lists available at ScienceDirect
+
+Economics Letters
+j o u r n a l h o m e p a g e : w w w. e l s ev i e r. c o m / l o c a t e / e c o l e t
+
+Fiscal decentralization and government quality in the OECD
+Andreas P. Kyriacou a,⁎, Oriol Roca-Sagalés b
+a
+b
+
+Departament d'Economia, Universitat de Girona, Campus de Montilivi, 17071, Girona, Spain
+Departament d'Economia Aplicada, Universitat Autònoma de Barcelona, Ediﬁci B, Bellaterra 08193, Barcelona, Spain
+
+a r t i c l e
+
+i n f o
+
+Article history:
+Received 5 July 2010
+Received in revised form 20 January 2011
+Accepted 15 February 2011
+Available online 21 February 2011
+
+a b s t r a c t
+Using indicators of ﬁscal decentralization which control for intergovernmental transfers and grants, it is shown
+that decentralization has a positive impact on government quality but that this positive effect is mitigated in
+the presence of regional elections and multi-level government.
+© 2011 Elsevier B.V. All rights reserved.
+
+JEL classiﬁcation:
+D73
+H11
+H77
+K42
+Keywords:
+Quality of government
+Fiscal decentralization
+Multi-level government
+Panel data
+
+1. Introduction
+Fiscal decentralization can improve government quality by promoting inter-jurisdictional competition for ﬁscal resources thus making
+sub-central governments more responsive to citizens' preferences
+(Brennan and Buchanan, 1980). The creation of multi-level government
+structures in a ﬁscally decentralized setting (typical of federal systems)
+may reduce government quality because it leads to ﬁscal or regulatory
+“over-grazing” (Shleifer and Vishny, 1993), because it hinders the
+capacity of citizens to assign merit or blame to different government
+levels (Gerring and Thacker, 2004) or because the creation of multiple
+veto points (for example via bicameralism) may lock in the status quo
+and prevent improvements in government effectiveness (Treisman,
+2002). Combining ﬁscal decentralization with sub-national elections
+may improve government quality by empowering better informed
+voters (Seabright, 1996) but it may also lead to the capture of subnational politicians by special interests having the opposite effect
+(Bardhan and Mookherjee, 2000). In this light, a case emerges for a
+degree of political centralization in the form of either centrally
+appointed local ofﬁcials or strong national parties that exercise
+
+⁎ Corresponding author. Tel.: +34 972 418716; fax: +34 972 418032.
+E-mail address: andreas.kyriacou@udg.edu (A.P. Kyriacou).
+0165-1765/$ – see front matter © 2011 Elsevier B.V. All rights reserved.
+doi:10.1016/j.econlet.2011.02.019
+
+inﬂuence on sub-central ofﬁcials thereby limiting their excesses
+(Blanchard and Shleifer, 2001; Riker, 1964).
+Existing empirical evidence is supportive of the positive impact of
+ﬁscal decentralization on government quality. Fisman and Gatti (2002)
+ﬁnd that more ﬁscally decentralized countries tend to be less corrupt. Fan
+et al. (2009) show that ﬁscal decentralization reduces corruption while a
+large number of government or administrative tiers increase it. Fiscal
+decentralization combined with strong national parties signiﬁcantly
+improves government quality (Enikolopov and Zhuravskaya, 2007). On
+the other hand, electoral decentralization, federalism or bicameralism
+reduces the positive effect of ﬁscal decentralization on the quality of
+government (Kyriacou and Roca-Sagalés, 2011).
+The inter-jurisdictional competition literature emphasizes the
+importance of sub-central governments relying on their own resources
+for the proper functioning of competition. Thus, vertical transfers may
+create incentives for local ofﬁcials to ignore competitive pressures for
+better management (Oates, 1999; Qian and Rolands, 1998). Because it is
+available for the widest cross-country sample, ﬁscal decentralization has
+typically been measured as expenditure or revenue share of sub-central
+governments in total public expenditures (or as a percentage of GDP)
+based on the IMF's Government Finance Statistics (GFS). But these
+deﬁnitions do not control for inter-governmental transfers or grants to
+and from central government respectively (Rodden, 2004). More
+generally, the GFS indicators do not reﬂect on whether sub-central
+governments “own” ﬁscal resources and as a result tend to overestimate
+the degree of ﬁscal autonomy (Stegarescu, 2005). In this paper, we
+
+192
+
+A.P. Kyriacou, O. Roca-Sagalés / Economics Letters 111 (2011) 191–193
+
+Table 1
+Fiscal and political decentralization and government quality.
+Expenditure decentralization
+
+Fiscal decentralization
+GDP per capita
+Size government
+Regional elections* ﬁsc. decentral.
+
+Revenue decentralization
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+(5)
+
+(6)
+
+2.563
+(0.60)***
+0.346
+(0.17)**
+0.239
+(0.38)
+− 2.923
+(0.60)**
+
+0.436
+(0.19)**
+0.471
+(0.18)***
+− 0.038
+(0.39)
+
+3.906
+(0.60)***
+0.480
+(0.17)***
+0.794
+(0.29)***
+
+4.124
+(0.71)***
+0.379
+(0.19)**
+− 0.093
+(0.28)
+− 4.231
+(0.54)***
+
+2.472
+(0.57)***
+0.542
+(0.19)***
+− 0.048
+(0.34)
+
+5.225
+(0.78)***
+0.446
+(0.15)***
+0.165
+(0.19)
+
+Federalism* ﬁsc. decentral.
+
+− 0.904
+(0.35)**
+
+− 2.986
+(0.36)***
+
+Bicameral* ﬁsc. decentral.
+Adjusted R2
+Observations
+
+0.97
+261
+
+− 4.178
+(0.55)***
+0.98
+261
+
+0.97
+261
+
+0.97
+261
+
+0.97
+261
+
+− 5.401
+(0.61)***
+0.98
+261
+
+All regressions include cross-section and period ﬁxed effects and report white heteroskedasticity-robust standard errors in parentheses. *, **, *** measure statistical signiﬁcance at
+the 10, 5 and 1% levels respectively. “Regional elections”, “federalism” and “bicameralism” are time constant dummy variables.
+
+empirically re-examine the relationship between ﬁscal decentralization
+and government quality by way of ﬁscal decentralization measures
+which account for intergovernmental grants and transfers.
+2. Data and empirical methodology
+We use two indicators of ﬁscal decentralization provided by Gemmell
+et al. (2009) and based on the OECD General Government Accounts. First,
+subnational expenditure (as a proportion of consolidated general
+government spending) which subtracts from state and local expenditure, transfers paid to central government. Second, subnational revenue
+(as a proportion of consolidated general government revenue) which
+subtracts from state and local revenues, grants from other governments.1
+Our government quality indicators come from the World Bank's
+Worldwide Governance Indicators. We generate an aggregate measure
+of government quality by averaging four dimensions of government
+quality namely, control of corruption, rule of law, regulatory quality and
+government effectiveness. The intersection of our government quality
+and ﬁscal decentralization indicators leads to an unbalanced panel of up
+to 27 OECD countries over the period 1996 to 2005.2 We use dummy
+variables to capture whether or not a country holds regional elections
+(WDR, 1999/2000), can be classiﬁed as federal (Elazar, 1995) or has a
+regional chosen upper house that could block lower house ﬁnancial
+legislation (Treisman, 2002).3
+We estimate the following model:
+Government Qualityit = αi + γt + β1 FDit + β2 FDit × PD
++ β3 Xit + εit ði = 1; …n; t = 1; …T Þ
+
+ð1Þ
+
+where FDit is a measure of ﬁscal decentralization in country i at time t,
+PD is a dummy variable which takes the value of 1 when a country is
+political decentralized (regional elections, bicameral or federal) and 0
+when it is not, and Xit is a vector of control variables that varies across
+countries and over time. If β1 N 0 while β2 b 0 this implies that the
+positive impact of ﬁscal decentralization on government quality is
+mitigated in the presence of political decentralization.
+To control for cross-country heterogeneity as well as periodspeciﬁc factors common to all cross-section units we employ ﬁxed
+
+1
+This measure is highly correlated with Stegarescu's (2005) revenue decentralization indicator which takes into account whether sub-central governments determine
+the tax rate and/or base (simple correlation over the period 1995–2001 of 0.93).
+2
+All OECD countries except Chile, Japan, South Korea and Turkey.
+3
+Simple correlations between these dummy variables range from 0.30 to 0.51.
+
+effects estimation. As a robustness check we also use instrumental
+variable (IV) and random effect estimations. The former deals with
+reverse causality and we employ lagged values of our endogenous
+explanatory variables as instruments (Barro, 2000; Enikolopov and
+Zhuravskaya, 2007). The latter exploits some of the cross-section
+variability of our panel and assumes no correlation between country
+speciﬁc residuals and our explanatory variables (Wooldridge, 2002).
+3. Results
+The variables included in the regressions reported in this section
+are those which are statistically signiﬁcant or whose exclusion
+seriously changes the estimates. In order to check whether the results
+are being driven by one particular country in our sample, we repeat
+our regressions after removing each of the 27 countries one at a time
+for the whole sample. The results are stable indicating that no single
+country is driving them.
+The empirical results in Table 1 are fully in line with the previous
+literature: ﬁscal decentralization has a positive and statistically
+signiﬁcant impact on government quality. Moreover, the results
+conﬁrm the ﬁnding such that electoral decentralization and multilevel government mitigate the positive effect of ﬁscal decentralization
+on government quality. Indeed, a look at the point estimates suggests
+that the presence of regional elections, federalism and bicameralism
+cancels the positive contribution of ﬁscal decentralization on the
+quality of government.
+The results obtained by the ﬁxed effects procedure are maintained
+when we estimate our model based on the IV technique or by way of
+the random effects method (Table 2). Our results are robust both to
+the disaggregation of our quality of government indicators down to
+their component dimensions and to the use of expenditure rather than
+revenue to measure ﬁscal decentralization.4
+4. Conclusion
+Existing empirical work calibrating the impact of ﬁscal decentralization on government quality employs indicators which do not reﬂect the
+“ownership” of ﬁscal resources by sub-central governments. This is
+despite the fact that the positive predictions made in the literature about
+the impact of inter-jurisdictional competition on government quality
+stem from the assumption that sub-national governments rely on their
+own resources. We take a step towards addressing this situation by using
+
+4
+
+Results available upon request.
+
+A.P. Kyriacou, O. Roca-Sagalés / Economics Letters 111 (2011) 191–193
+
+193
+
+Table 2
+Revenue decentralization and government quality. Sensitivity analysis.
+Instrumental variables
+
+Fiscal decentralization
+GDP per capita
+Size government
+Regional elections* ﬁsc. decentral.
+
+Random effects
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+(5)
+
+(6)
+
+5.039
+(1.53)***
+0.183
+(0.24)
+− 0.516
+(0.40)
+− 5.105
+(1.33)***
+
+2.567
+(0.86)***
+0.360
+(0.27)
+− 0.482
+(0.58)
+
+6.224
+(1.27)***
+0.288
+(0.19)
+0.126
+(0.36)
+
+2.860
+(0.45)***
+0.693
+(0.09)***
+0.098
+(0.26)
+− 2.450
+(0.59)***
+
+1.991
+(0.50)***
+0.793
+(0.09)***
+0.007
+(0.28)
+
+3.106
+(0.40)***
+0.764
+(0.07)***
+0.049
+(0.19)
+
+Federalism* ﬁsc. decentral.
+
+− 3.012
+(0.56)***
+
+Bicameral* ﬁsc. decentral.
+Adjusted R2
+Observations
+
+0.97
+260
+
+0.97
+260
+
+− 1.781
+(0.29)***
+− 6.532
+(1.02)***
+0.98
+260
+
+0.22
+261
+
+0.22
+261
+
+− 2.765
+(0.37)***
+0.27
+261
+
+IV estimations are two-stage least squares where the endogenous variables are instrumented through their one year lagged values. RE estimations are GLS. All regressions include
+cross-section and period effects and report white heteroskedasticity-robust standard errors in parentheses. *, **, *** measure statistical signiﬁcance at the 10, 5 and 1% levels
+respectively. “Regional elections”, “federalism” and “bicameralism” are time constant dummy variables.
+
+ﬁscal decentralization data which correct for inter-governmental transfers
+and grants. Our results generally support previous empirical work. We
+conﬁrm that ﬁscal decentralization in OECD countries has a positive
+impact on government quality but that this positive impact is mitigated in
+the presence of regional elections and multi-tier government structures.
+References
+Bardhan, P., Mookherjee, D., 2000. Capture and governance at local and national levels.
+American Economic Review 90 (2), 135–139.
+Barro, R., 2000. Inequality and growth in a panel of countries. Journal of Economic
+Growth 5 (1), 5–32.
+Blanchard, O., Shleifer, A., 2001. Federalism with and without political decentralization:
+China versus Russia. IMF Staff Papers 48 (4), 171–179.
+Brennan, G., Buchanan, J., 1980. The Power to Tax. Analytical Foundations of a Fiscal
+Constitution. Cambridge University Press, Cambridge.
+Elazar, D., 1995. From statism to federalism: a paradigm shift. Publius 25 (2), 5–18.
+Enikolopov, R., Zhuravskaya, E., 2007. Decentralization and political institutions.
+Journal of Public Economics 91 (11–12), 2261–2290.
+Fan, S., Lin, C., Treisman, D., 2009. Political decentralization and corruption: evidence
+from around the world. Journal of Public Economics 93, 14–34.
+Fisman, R., Gatti, R., 2002. Decentralization and corruption: evidence across countries.
+Journal of Public Economics 83, 325–345.
+
+Gemmell, N., Kneller, R., Sanz, I., 2009. Fiscal decentralization and economic growth in
+OECD countries: matching spending with revenue decentralization, Working Paper
+6, Madrid: Instituto de Estudios Fiscales.
+Gerring, J., Thacker, T., 2004. Political institutions and corruption: the role of unitarism
+and parliamentarism. British Journal of Political Science 34 (2), 295–330.
+Kyriacou, A., Roca-Sagalés, O., 2011. Fiscal and political decentralization and government
+quality. Forthcoming Environment and Planning C: Government and Policy.
+Oates, W., 1999. An essay on ﬁscal federalism. Journal Economic Literature 37,
+1120–1149.
+Qian, Y., Roland, G., 1998. Federalism and the soft budget constraint. American
+Economic Review 88 (5), 1143–1162.
+Riker, W., 1964. Federalism: Origins, Operation and Signiﬁcance. Little, Brown, Boston,
+Massachusetts.
+Rodden, J., 2004. Comparative federalism and decentralization. On meaning and
+measurement. Comparative Politics 36 (4), 481–500.
+Seabright, P., 1996. Accountability and decentralization in government: an incomplete
+contracts model. European Economic Review 40 (1), 61–89.
+Shleifer, A., Vishny, R., 1993. Corruption. Quarterly Journal of Economics 108, 599–616.
+Stegarescu, D., 2005. Public sector decentralization: measurement concepts and recent
+international trends. Fiscal Studies 26 (3), 301–333.
+Treisman D, 2002. Decentralization and the quality of government. mimeo: University
+of California.
+Wooldridge, J., 2002. Econometric Analysis of Cross Section and Panel Data. MIT Press,
+Cambridge MA.
+
+
